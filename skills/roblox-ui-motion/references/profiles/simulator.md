@@ -147,7 +147,7 @@ No clip was analysed for sound. All guesses, taken from one game's rulings as a 
 
 Entry total 320 ms. Exit: content fade 0 to 80 ms (Quad In), panel UIScale 1 -> 0.92 and fade 60 to 160 ms (Quad In). Exit total 160 ms.
 
-Note on the 102% peak: Roblox's Back Out overshoots by about 10% of the distance travelled, so 0.92 -> 1 peaks near 100.8%, not 102% (see `roblox-recipes.md`). To match 06 exactly use a two-step pop. A plain Back Out from 0.92 is acceptable and is inside R11.
+Note on the 102% peak (measured in Studio 2026-11-10, `evidence/engine/back-easing-2026-11-10.md`): Back Out overshoots 10% of the distance travelled, so 0.92 -> 1 peaks at 100.8%, which is too small to see. To get 06's visible 102%, start the Back pop at 0.8 (peak 1 + 0.1 x 0.2 = 1.02), or keep 0.92 and use the two-step pop in `roblox-recipes.md`. A plain Back Out from 0.92 is inside R11 but reads as a plain ease-out.
 
 ## Open questions for the owner or new evidence
 

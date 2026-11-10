@@ -44,11 +44,11 @@ end
 - Styles: Linear, Sine, Quad, Cubic, Quart, Quint, Exponential, Circular, Back, Bounce, Elastic. Directions: In (slow start), Out (slow end), InOut.
 - Entries use Out. Exits use In. Loops may use Linear or Sine InOut. Nothing else uses Linear.
 - Strength, mild to sharp: Sine, Quad, Cubic, Quart, Quint, Exponential. For UI beats of 100 to 250 ms, Quad and Quart cover nearly every case.
-- **Back overshoots by about 10% of the distance travelled**, peaking a little past halfway through the tween (the standard Back curve, constant 1.70158) **(verify the exact figure; the order of size is certain)**. Consequences:
-  - UIScale 0.92 -> 1 with Back Out peaks near 1.008 (0.8% over). 0.85 -> 1 peaks near 1.015. 0.5 -> 1 peaks near 1.05: the R11 limit. Never start a Back pop below 0.5.
+- **Back Out overshoots 10% of the distance TRAVELLED, not 10% of the final size**, peaking at 58% of the tween's time (measured in Studio 2026-11-10: `TweenService:GetValue` peak 1.100004 at alpha 0.580; a 0.18 s UIScale 0.92 -> 1 peaked at 1.00785 at 0.098 s; `evidence/engine/back-easing-2026-11-10.md`). For a scale pop: peak = 1 + 0.1 x (1 - start). Consequences:
+  - UIScale 0.92 -> 1 peaks at 1.008 (0.8% over: too small to see, it reads as a plain ease-out). 0.85 -> 1 peaks at 1.015. 0.8 -> 1 peaks at 1.02. 0.5 -> 1 peaks at 1.05: the R11 limit. Never start a Back pop below 0.5.
   - A Back slide of 300 px overshoots by about 30 px. Check that against R11 (5% of the element's size) before using Back on Position. Prefer Quad or Quart Out for slides.
   - Back In dips backwards first: do not use it for exits.
-- To get an exact peak (for example 102%), use two tweens: start -> 1.02 with Quad Out in about 70 ms, then 1.02 -> 1 with Quad InOut in about 130 ms.
+- To get a visible peak (for example 102%), either start the Back pop from 0.8, or, if the start must stay close to 1, use two tweens: start -> 1.02 with Quad Out in about 70 ms, then 1.02 -> 1 with Quad InOut in about 130 ms.
 - Bounce and Elastic overshoot or rebound several times: forbidden on panels and cards (R11).
 - TweenService can tween numbers, booleans, Color3, UDim, UDim2, Vector2, Vector3, CFrame, Rect and a few more. It cannot tween `NumberSequence` or `ColorSequence`: animate a `UIGradient` through `Offset` or `Rotation`, not by tweening its sequences.
 - **Playing a new tween on a property that another tween is animating cancels the older tween.** The older tween's `Completed` fires with `Enum.PlaybackState.Cancelled`. Always check the state in `Completed` before acting:
