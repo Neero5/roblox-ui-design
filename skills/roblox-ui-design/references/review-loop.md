@@ -1,4 +1,6 @@
-# Review loop
+# Review loop (full; opt-in)
+
+**Use this only when the owner asks for it, or for a new full screen or a rare moment after asking first.** Everyday work uses the light check in `SKILL.md`. The full loop is costly (slowed captures, many frames, a separate reviewer): do not run it for tweaks, and use subagents only if the owner asks.
 
 Motion is verified from frames and measurements, never from reading the code and never from one screenshot of the resting state. The loop: capture, measure, grade, fix, recapture, then hand the rest to the owner.
 

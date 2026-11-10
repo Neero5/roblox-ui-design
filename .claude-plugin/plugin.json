@@ -1,5 +1,5 @@
 {
   "name": "roblox-ui-design",
-  "version": "0.1.0",
-  "description": "Rules, genre profiles, Roblox recipes and a review loop so Claude builds polished Roblox UI motion (later VFX and animation) instead of slop."
+  "version": "0.2.0",
+  "description": "Turn a simple Roblox UI mockup into a professional, on-identity UI (layout, look, motion): owner-ruled rules, genre profiles, Roblox recipes, a light check by default."
 }

@@ -1,7 +1,7 @@
 ---
 type: ui-profile
 ---
-# <Game name>: UI profile (read by the roblox-ui-motion skill)
+# <Game name>: UI profile (read by the roblox-ui-design skill)
 
 **Identity:** <the UI's world in a few words a player could say, e.g. "red ninja clan", "marble sculpture studio"; not adjectives such as "clean" or "modern", not just the genre>
 **Benchmark (optional, one game at most):** <a successful game whose execution to match> / **Principles borrowed:** <anchors, restraint, type, timing, hierarchy, in words. Never its art, logos, icon sets, exact layouts or trade dress>

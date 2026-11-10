@@ -1,6 +1,6 @@
 # roloblox-ui-design
 
-A Claude Code plugin that teaches Claude to build **polished Roblox UI motion** (later VFX and animation) for any Roblox game, instead of generic "AI slop".
+A Claude Code plugin that turns a simple Roblox UI mockup (plus a prompt, and references when useful) into a **professional, on-identity UI: layout, look and motion**, for any Roblox game, instead of generic "AI slop". VFX and animation later.
 
 It is built from real reference clips: each clip is turned into frames and measurements (`tools/extract.py`), torn down into a note (`evidence/`), and the rules distilled from them are ruled on by the owner before they enter a skill.
 
@@ -16,7 +16,7 @@ Update later with `/plugin marketplace update roblox-ui-design`.
 Copy `templates/project-profile.md` into the game's repo (for example `docs/ui-profile.md`), pick a genre profile and fill in the theme vocabulary. The skill reads it first.
 
 ## Layout
-- `skills/roblox-ui-motion/` the skill: `SKILL.md` + `references/` (core rules, genre profiles, Roblox recipes, review loop)
+- `skills/roblox-ui-design/` the skill: `SKILL.md` (mockup to UI, build, audit) + `references/` (layout craft, core rules, genre profiles, Roblox recipes, the opt-in full review loop)
 - `evidence/<area>/` teardown notes per clip, key frame sheets in `media/`, the owner's verdicts
 - `tools/extract.py` clip -> contact sheets, motion graph, frame strips, bursts (needs ffmpeg, Python, Pillow, numpy)
 - `templates/` teardown and project-profile templates
