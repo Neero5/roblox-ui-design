@@ -53,3 +53,9 @@ Scope: the rules are for Roblox games in general (a reusable skill); genre-depen
 1. Does R2's 350 ms budget feel right for the Store, or do you want the Store's first open of a session to get a longer "showroom" entry?
 2. R7: should the kiosk and the Store Featured block be the only places with idle motion?
 3. Which clip, if any, would you rate 5? (Claude proposed 04.)
+
+## Second ruling (2026-11-10): the skill's additions
+- E1 to E5 (Reduced Motion, interruptible, input never held hostage, one motion table, start states before the first frame): owner "Adopt E1 to E5".
+- Refinements (R3 exit 40 to 65% of the entry; R5 160 to 240 ms; R4 allows a cross-dissolve of content inside the same frame for 160 ms or less): owner "refinements stand too".
+- New clip 07 (@santonixs): owner "I like this one quite a lot too" read as a 5; see `INDEX.md` for which number is which video.
+

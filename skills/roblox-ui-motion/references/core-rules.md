@@ -2,7 +2,7 @@
 
 Universal rules for Roblox UI motion. They hold in every genre. Numbers that change with the game live in `profiles/<genre>.md`; where a rule says "profile", read the number there.
 
-Status: R1 to R13 and the anti-slop list were adopted by the owner on 2026-11-10 (`evidence/ui/pilot-rules-verdicts-2026-11-10.md`). The wording here is generalised from that ruling: game-specific examples were replaced by "the game's profile". Section E at the end is engineering practice proposed by the skill, not yet ruled on.
+Status: R1 to R13 and the anti-slop list were adopted by the owner on 2026-11-10 (`evidence/ui/pilot-rules-verdicts-2026-11-10.md`). The wording here is generalised from that ruling: game-specific examples were replaced by "the game's profile". Section E (engineering requirements) and the numeric refinements of R3 (40 to 65% of the entry), R5 (160 to 240 ms) and the R4 tab cross-dissolve exception were adopted by the owner on 2026-11-10: "Adopt E1 to E5, refinements stand too".
 
 Evidence ids are the teardown notes in `evidence/ui/`: 01 simulator shop (filmed), 02 dark commands panel, 03 sword RPG menu, 04 Aftertwelve menus (rated 5 by the owner), 05 sky shop, 06 mines panel (filmed). Six clips is thin evidence. 01 and 06 were filmed off a monitor: layout only, timing within about one frame at best, no colour.
 
@@ -126,9 +126,9 @@ Each line is a fail if seen in the frames.
 7. An effect borrowed from another genre (glitch, decoding text, neon in a game with no neon). (R10)
 8. Text that loses against the background. (R13)
 
-## E. Engineering requirements (proposed by the skill, NOT yet ruled on by the owner)
+## E. Engineering requirements (adopted by the owner 2026-11-10)
 
-These are not taste rules. They keep the adopted rules true in a real game. Treat them as required until the owner rules otherwise.
+These are not taste rules. They keep the adopted rules true in a real game.
 
 - **E1. Reduced Motion.** When `GuiService.ReducedMotionEnabled` is true: no scale, slide, overshoot, stagger, idle loop or particle. State changes still happen and are still visible, instantly or with an opacity fade of 150 ms or less (the profile says which). Check: capture the same transitions with the setting on. Basis: R7's "off under Reduced Motion"; the owner plays with Reduced Motion on.
 - **E2. Interruptible.** Opening during a running exit, or closing during a running entry, cancels the running sequence and starts the new one from the current state. No panel may end half transparent, at the wrong scale or invisible while logically open. Check: trigger open, close, open inside 150 ms and capture the rest state.
