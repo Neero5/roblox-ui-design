@@ -72,3 +72,10 @@ Scope: the rules are for Roblox games in general (a reusable skill); genre-depen
 
 What the ratings say (Claude's reading, proposed as rules I1 to I4 for the owner's ruling): the score follows IDENTITY first (a UI that belongs to one nameable world), consistency is necessary but not enough (01), generic loses points even when tidy (01, 06), showing off loses points (05), and a proven benchmark game executed well wins (07, 03).
 
+
+## Fourth ruling (2026-11-10): identity rules I1 to I4
+Owner: "Adopt all, they sounds reasonable".
+- **I1 Identity.** Every panel, tab, icon, colour and motion belongs to one identity a player could name in a few words; the game's profile states it and each element is checked against it. (02, 03, 04, 07)
+- **I2 Generic fails.** Consistent but interchangeable is a fail. Check: hide the logo and game name; could a player still tell which game this is, or could the UI slip into most games of its genre unnoticed? (01, 06)
+- **I3 Serve, don't show off.** Motion and effects exist for the player, never to display the UI kit; when every element performs, the screen reads as trying too hard. (05)
+- **I4 A proven benchmark.** A game's profile may name one successful game as its benchmark and match its execution principles (anchors, restraint, type, timing), never its art, logos or exact layouts. (07, 03)
