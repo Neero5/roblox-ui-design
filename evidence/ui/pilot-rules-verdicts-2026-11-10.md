@@ -79,3 +79,10 @@ Owner: "Adopt all, they sounds reasonable".
 - **I2 Generic fails.** Consistent but interchangeable is a fail. Check: hide the logo and game name; could a player still tell which game this is, or could the UI slip into most games of its genre unnoticed? (01, 06)
 - **I3 Serve, don't show off.** Motion and effects exist for the player, never to display the UI kit; when every element performs, the screen reads as trying too hard. (05)
 - **I4 A proven benchmark.** A game's profile may name one successful game as its benchmark and match its execution principles (anchors, restraint, type, timing), never its art, logos or exact layouts. (07, 03)
+
+## Fifth ruling (2026-11-10): the revision pass's open points
+Owner: "Keep the 300 ms cap, confirm the rest".
+- R2 stands for grids: a grid cascade on a frequent panel ends by 300 ms (07's own 700 ms cascade is not copied).
+- Confirmed readings: I4's principles-only line wins over "mimics" (close cases go to the owner); 05's verdict covers its jet loop too; 04 is 4.5 and 07 outranks it where they disagree; animation quality is the second scoring axis after identity.
+- Confirmed numbers (now tagged "owner 2026-11-10" in the skill): I2 fails at 3 or more generic tells; fewer than 3 identity carriers fails; identity statement 2 to 8 words; the hide-the-logo test by a reviewer who has not read the profile; I3's job-per-beat check. Simulator: rare moments 4 beats at most; Back Out on the panel only; 1 overshooting element (2 with the hero); a new build starts with 0 idle; the default hero card Quad Out from 0.96. Premium: rarity colours are information, not accents; buttons at least 32 px; page change 230 to 270 ms; grid compression beyond 3 rows.
+

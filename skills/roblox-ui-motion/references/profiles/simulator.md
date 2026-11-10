@@ -51,7 +51,7 @@ A tell is a default, not a ban: a red close button is fine in a game whose world
 | Parameter | Value | Source |
 |---|---|---|
 | Beats, frequent panel | 1 to 3. Default 2: panel pop, then content. | core R1; 06, low-rated clip (1 beat); "2" is a guess |
-| Beats, rare moment | 4 at most as a start | guess; 05, low-rated clip, used 6 and read as showing off (core I3) |
+| Beats, rare moment | 4 at most as a start | owner 2026-11-10; 05, low-rated clip, used 6 and read as showing off (core I3) |
 | Beat order | container, ornaments, section label, content, hero last | core R1; 05, low-rated clip (the order was the good part) |
 | Stagger | 50 to 80 ms | core R1; 02 and 07 (60 to 100 ms, other genre); 05, low-rated clip, measured 100 to 200 ms: too slow |
 | Duration of one beat | 150 to 200 ms | 06 and 05, low-rated clips; matches 07 (200 ms) |
@@ -69,9 +69,9 @@ A tell is a default, not a ban: a red close button is fine in a game whose world
 | Panel pop start scale | 0.92 | 06, low-rated clip |
 | Panel pop peak | 102% (allowed 100% to 104%) | 06, low-rated clip; range is a guess inside core R11 |
 | Settle | at rest by 200 ms | core R11; 06 |
-| Entry easing | Back Out for the panel only; Quad or Quint Out for content, slides and ornaments | core R11; 05 and 06, low-rated clips; narrowed to the panel by guess after the owner's verdict on 05 |
+| Entry easing | Back Out for the panel only; Quad or Quint Out for content, slides and ornaments | core R11; 05 and 06, low-rated clips; narrowed to the panel after the verdict on 05, owner 2026-11-10 |
 | Exit easing | Quad In, no overshoot | core R3; guess |
-| Elements that may overshoot in one entry | 1 (the panel), or 2 with the hero | guess; core I3; anti-slop "every element bounces" |
+| Elements that may overshoot in one entry | 1 (the panel), or 2 with the hero | owner 2026-11-10; core I3; anti-slop "every element bounces" |
 | No overshoot at all | always acceptable; every clip rated 4 or more has none | 07, 04, 02, 03 (other genre) |
 | Value-change pop | 8% up, back within 300 ms | worked example |
 | Forbidden easing | Bounce, Elastic, Linear (except loops) | core R11, anti-slop |
@@ -80,7 +80,7 @@ A tell is a default, not a ban: a red close button is fine in a game whose world
 
 | Parameter | Value | Source |
 |---|---|---|
-| Idle budget | 1 looping element per screen at most: the hero. Start a new build with 0 and add the hero loop only if it has a job for the player | core R7, core I3 |
+| Idle budget | 1 looping element per screen at most: the hero. Start a new build with 0 and add the hero loop only if it has a job for the player | core R7, core I3; owner 2026-11-10 |
 | The loop stays inside the hero | it never crosses other cards, the header or the panel edge | 05, low-rated clip (counter-example: the jet, its trail and smoke rings cross the whole panel; the owner: "jets going everywhere") |
 | Effect types in the loop | 1 (for example a sheen or a small bob), not a moving object plus a trail plus rings | core I3; 05 (counter-example); guess |
 | Cycle | 3 to 5 s | core R7; 05, low-rated clip (about 3 s) |
@@ -136,7 +136,7 @@ No clip was analysed for sound. All guesses, taken from one game's rulings as a 
 - Scramble or decode text unless the game's theme vocabulary includes it. (05)
 - More than one saturated gradient card style per row. (05)
 
-## Default beat table: frequent panel (starting point; a guess built from the core rules, not from a rated model)
+## Default beat table: frequent panel (starting point built from the core rules, not from a rated model; hero card Quad Out from 0.96 confirmed by the owner 2026-11-10)
 
 | # | element | start ms | duration ms | easing | property | job for the player |
 |---|---|---|---|---|---|---|
@@ -153,4 +153,4 @@ Note on the 102% peak: Roblox's Back Out overshoots by about 10% of the distance
 
 - No simulator clip rated 4 or more exists. One good reference would replace most guesses here.
 - How lively may a good simulator be? The ratings punish showing off (05) but no clip shows the upper limit of "lively and still good".
-- Is the tell threshold (3 or more) right for this genre?
+- (answered) The tell threshold of 3 or more: owner 2026-11-10.

@@ -54,7 +54,7 @@ What the owner praised in all four clips is identity before motion: 02 "all its 
 | Parameter | Value | Source |
 |---|---|---|
 | Still anchors | two: the navigation rail and the 3D character or subject. They sit outside the page content and never move, scale or fade on a page change | 07; 03 and 04 (one anchor each); core R6 |
-| Page change | old page content out in 30 to 70 ms, new content fades in over about 200 ms with the small rise; about 230 to 270 ms in total | 07 (old content gone in about one frame, new in 0 to 200 ms); the 70 ms upper value is a guess |
+| Page change | old page content out in 30 to 70 ms, new content fades in over about 200 ms with the small rise; about 230 to 270 ms in total | 07 (old content gone in about one frame, new in 0 to 200 ms); owner 2026-11-10 |
 | Panel swap total (two different panels) | 400 ms or less: exit 150 to 200, empty beat 0 to 30, entry 200 to 230 | 03 measured about 600 ms and was judged slow; 400 is a guess |
 | Empty beat between pages | one frame, about 30 ms, or none | 03; core R4 |
 | Fade through black between pages | avoid. 07 fades to near black, holds about 100 ms of nothing, then brings the next page in: the one slow spot of the top-rated clip | 07 (counter-example inside a model clip) |
@@ -68,7 +68,7 @@ What the owner praised in all four clips is identity before motion: 02 "all its 
 | Other in-place values (carousel, tab name) | 170 to 200 ms: old value dims to about 40% over 70 to 100 ms, new value in over 100 ms; all dependent texts in the same beat | 07 (170 ms), 04 (200 ms); core R5 allows 160 to 240 ms |
 | What changes together | name, stars, rank letter, stats, description and the button label, in one beat | 07, 04 |
 | Grid entry | rows light up top to bottom, about 100 ms a row | 07 |
-| Grid cascade cap, frequent panel | the cascade ends by 300 ms and the whole entry by 350 ms. Up to 3 rows: 100 ms a row. More rows: 50 to 60 ms a row for the first 5, later rows arrive with the fifth | cap: core R2; 07's own cascade ran about 700 ms for 7 rows, longer than R2 allows (see the open question); the compression is a guess |
+| Grid cascade cap, frequent panel | the cascade ends by 300 ms and the whole entry by 350 ms. Up to 3 rows: 100 ms a row. More rows: 50 to 60 ms a row for the first 5, later rows arrive with the fifth | cap: core R2; 07's own cascade ran about 700 ms for 7 rows, longer than R2 allows ; cap and compression owner 2026-11-10 |
 | Grid on reselect, scroll or filter | no cascade; cells are simply there | guess; core R2 |
 
 ## Pops and easing
@@ -110,7 +110,7 @@ What the owner praised in all four clips is identity before motion: 02 "all its 
 | The large voice as hierarchy | one large glyph may carry the rank or order: a rank letter (E, C, S, SS) as a big faint glyph behind the detail, or serif numerals 1, 2, 3 on slots. It replaces a box or a badge frame; one per pane | 07 |
 | Families | 1, or 2 (a serif for titles or numerals) | 04 (one), 02 and 07 (a serif plus a plain face) |
 | Minimum text size | 14 px at the design resolution; hairline weights and italics only at 20 px or more | guess; 02, 04 and 07 all lost points on size, weight or grey italics |
-| Buttons | no smaller than 32 px high at the design resolution | guess; 07 (pill buttons too small) |
+| Buttons | no smaller than 32 px high at the design resolution | owner 2026-11-10; 07 (pill buttons too small) |
 | Text on the world | always over a scrim, vignette or glass dark enough for the brightest scene; test on the brightest scene | 04 (lost on snow) |
 | Muted line | muted by lower contrast, but still clearly readable; never the same grey as the label | 04 ("risk of everything being the same grey"), 07 (grey italic descriptions hard to read) |
 
@@ -174,5 +174,5 @@ Entry total 300 ms. Exit: column 3 out 0 to 70 ms, everything else fades 70 to 1
 
 ## Open questions for the owner
 
-- 07's inventory grid takes about 700 ms to light up (7 rows at about 100 ms). The owner rated the clip 5 and also adopted R2 (350 ms for frequent panels). This profile keeps R2 and caps the cascade at 300 ms. If the owner likes the full 700 ms cascade, it needs an R2 override for the first open of a grid.
-- Rarity colours are treated as information, not as accents. Confirm.
+- (answered) 07's grid cascade ran about 700 ms; the owner keeps R2 and the 300 ms cascade cap: "Keep the 300 ms cap" (2026-11-10).
+- (answered) Rarity colours are information, not accents: owner 2026-11-10.
