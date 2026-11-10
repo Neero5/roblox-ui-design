@@ -2,6 +2,8 @@
 
 Motion is verified from frames and measurements, never from reading the code and never from one screenshot of the resting state. The loop: capture, measure, grade, fix, recapture, then hand the rest to the owner.
 
+Grading order follows the owner's scoring: identity first (I1 to I4), then motion (R and E rules). A build that passes every motion rule and fails I2 is a fail, so do the identity checks on a resting screenshot BEFORE spending time on slow-motion capture.
+
 ## 1. Set up the capture
 
 A UI beat lasts 100 to 200 ms. A screenshot tool driven by an agent takes one picture every few hundred milliseconds at best, with uneven delay. So slow the motion down and stamp every frame with its own time.
@@ -45,6 +47,10 @@ end)
 | Reduced Motion on: entry and exit | 2 frames each, plus rest |
 | Worst background for text (brightest, busiest scene) | 1 frame at rest |
 | Small window and large window | 1 frame each at rest |
+| Identity: masked rest frame (logo, game name, named currencies and characters covered with a plain box) | 1 per panel changed |
+| Identity: the rest frames of the game's other main panels, side by side with the changed one | 1 sheet |
+| Show-off: rest frame with each idle or decorative effect switched off | 1 per effect |
+| Benchmark (only if the profile names one): the build beside the benchmark's same kind of screen | 1 pair, for the reviewer only; never commit the benchmark's screenshot |
 
 Use whatever screenshot tool the session has (for example a Studio MCP screen capture). Check first that the tool draws the layer under test: some capture tools skip BillboardGuis or lose the 3D layer. If a layer cannot be captured, say so and list it for the owner's eyes.
 
@@ -93,6 +99,8 @@ If only frames are available: duration = (label of the first frame at rest) minu
 
 The grader is not the builder. Use a fresh subagent (the strongest model available for subtle calls) and give it only: the frames, the trace or the measured table, the beat table, the game's project profile, the genre profile and `core-rules.md`. Do not give it the code or the builder's opinion. If no second agent is available, grade in a separate pass after re-reading the rules, and say so in the report.
 
+The hide-the-logo test needs a SECOND reviewer who has not read the game's profile (it states the identity, which would give the answer away). Give that reviewer only the masked rest frames and the question in I2. If no second reviewer is available, mark the item "cannot tell" and hand it to the owner; the grader must not answer it from memory of the profile.
+
 Rules for the grader:
 - Every verdict cites a frame (by its ms label) or a trace row. No frame, no pass.
 - "Looks fine" is not a verdict. Use pass, fail, or cannot tell (and then name what capture would settle it).
@@ -118,6 +126,19 @@ swap gap ms         ...       ...        0-30, no overlap ...
 value change ms     ...       ...        160-240          ...
 idle elements       ...       ...        profile budget   ...
 idle cycle s        ...       ...        >= 3, profile    ...
+
+IDENTITY (first)    verdict   proof / note
+Identity statement (from the profile): "<...>"     Benchmark: <game or none>
+I1 statement names a world (not adjectives, not just the genre)
+I1 every element has its "how it expresses the identity" line (blanks: <n>)
+I1 same surfaces, type, accent, borders across panels (side-by-side sheet)
+I2 hide-the-logo: blind reviewer's answer: "<...>"   matches the identity? names >= 2 elements?
+I2 generic tells present: <n> of <list size> (list them; >= 3 = fail; each kept tell has a reason)
+I2 identity carriers: <list> (fewer than 3 = fail)
+I3 every beat has a job for the player (blanks: <n>)
+I3 effect types on the resting screen: <n> (limit: profile idle budget)
+I3 removal test per idle or decorative effect: kept because <job> | cut
+I4 benchmark: principles listed in words; build not mistakable for it (pair frame); no copied art, logo, icons, layout or trade dress
 
 CORE RULES          verdict   proof / note
 R1 beats in order
@@ -150,6 +171,11 @@ ANTI-SLOP           seen? (yes = fail)   proof
 6 placeholder text / raw ids
 7 effect from another genre
 8 text loses against background
+9 logo hidden: fits most games of the genre
+10 three or more genre tells without a reason
+11 a panel or icon set from another world
+12 motion with no job / several effect types at rest
+13 mistakable for the benchmark game
 
 RESULT: pass | fail (n items)
 FIXES REQUIRED: <rule id: change>
@@ -158,6 +184,10 @@ OWED TO THE OWNER'S EYES: <list>
 ```
 
 How to judge the items that are not numbers:
+- **I1:** read the statement, then look at the side-by-side sheet. Name any panel, tab or icon set that would look at home in a different game; that is the fail. Check the per-element lines against the frame: a line that claims a material or motif the frame does not show is a blank.
+- **I2:** the blind reviewer's answer passes only if it describes the world of the identity statement and points at concrete elements (a shape, a material, a motif). "A simulator shop", "an RPG menu", "a clean dark UI" are genre or adjective answers: fail. Then tick the profile's "Generic tells" one by one on the unmasked rest frame, and list the identity carriers. The three results must agree; if the blind answer passes but 3 or more tells are present, it is still a fail.
+- **I3:** for each effect read its job in the beat table, then compare the frame with the effect off. "It looks cool", "adds polish" and "makes it unique" are not jobs. Something moving on a screen where the player is reading or choosing needs the strongest reason.
+- **I4:** compare the pair. Same placement of the same elements, the same frame shapes, look-alike icons or ornaments, or the same palette as a whole: fail. The same principle carried out with the game's own shapes and content (a still rail, a cross-fading detail pane, large numerals): pass.
 - **R1, E5:** in the first frame after the trigger, nothing that belongs to a later beat is visible at rest.
 - **R4:** no frame of the swap shows readable text of both pages.
 - **R6:** the anchor's edges are at the same pixels in the first, middle and last frame.
@@ -180,6 +210,8 @@ Frames at slow speed cannot judge everything. Always hand these to the owner, st
 
 - **Feel at real speed**: whether the motion feels quick, calm, heavy or cheap. Slow-motion frames prove order and size, not feel.
 - **Sound**: timing against the motion, loudness, whether cues suit the theme.
+- **Identity as a player reads it**: the checks prove the UI is not generic by the list; only the owner (and players) can say whether the identity is the right one and whether it "pops up immediately". Ask it as one question, with the masked frame: "what world is this?"
+- **A benchmark comparison that is close to the line** (I4): show the pair and ask before shipping.
 - **Taste calls**: whether the hero is the right hero, whether an ornament is charming or too much. The owner's standard: subtle, not noisy; "too much is less".
 - **Any override** of a core rule or a profile number. Record the owner's words and reason in the game's project profile.
 - **Anything the capture tool could not draw**, and real devices (phone, low-end PC, a very large screen).
@@ -190,4 +222,4 @@ How to ask: show the frame strip, state the measured numbers, ask one precise qu
 
 ## 6. What to report
 
-The beat table as built, planned against measured totals, the grading form, the list of fixes made between rounds, and the "owed to the owner's eyes" list. Never write "verified" for an item that was only read from code.
+The identity statement and the per-element lines, the blind reviewer's hide-the-logo answer, the tells ticked, the beat table as built (with each beat's job), planned against measured totals, the grading form, the list of fixes made between rounds, and the "owed to the owner's eyes" list. Never write "verified" for an item that was only read from code.

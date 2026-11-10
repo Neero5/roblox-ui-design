@@ -28,6 +28,14 @@ The core rules still apply in full (order, budgets, exit ratio, no overlap, one 
 | Sound and feedback | sparse and quiet; press feedback within 50 ms by brightness, no spring (guess) |
 | Reduced Motion | fades of 150 ms or less; no flicker at all (flicker is also a photosensitivity risk) (guess) |
 
+## Identity in this genre (all guesses; core I1 to I4 apply in full)
+
+The genre is not the identity: the game's profile must name its own world in a few words.
+
+- **Where identity lives (guess):** the game's own place and period (its paper, its signage, its recording device, its handwriting), how light and darkness sit on the panels, and what is left out.
+- **Generic tells to tick for core I2 (guess, no clip):** a dripping or scratched stock horror font; red text on black; static, scan lines and glitch on everything; a blood splatter decal; a camcorder overlay with no reason in the story.
+- **Benchmark (core I4):** optional, one successful game; borrow anchors, restraint, type, timing and hierarchy, never its art, logos, icon sets, exact layouts or trade dress.
+
 ## Open questions for the owner or new evidence
 - Is a deliberately slow rare entry (above 800 ms) wanted for scares? That would need an override of R2.
 - How much flicker is acceptable?

@@ -29,5 +29,13 @@ The core rules still apply in full (order, budgets, exit ratio, no overlap, one 
 | Sound and feedback | soft and tactile (wood, paper, a small chime); press squash 3% to 4% (guess) |
 | Reduced Motion | instant or a 150 ms fade; no sway, no sparkle (guess) |
 
+## Identity in this genre (all guesses; core I1 to I4 apply in full)
+
+The genre is not the identity: the game's profile must name its own world in a few words.
+
+- **Where identity lives (guess):** the materials of the game's own place (its paper, wood, cloth, clay), hand-drawn icons in one hand, a title face with character, and one gentle way of moving used everywhere.
+- **Generic tells to tick for core I2 (guess, no clip):** a beige rounded panel with a brown outline; pastel cards with no material; a leaf or heart stuck on a default frame; a stock rounded font; sparkles on everything.
+- **Benchmark (core I4):** optional, one successful game; borrow anchors, restraint, type, timing and hierarchy, never its art, logos, icon sets, exact layouts or trade dress.
+
 ## Open questions for the owner or new evidence
 - No cosy clip has been torn down; the split from simulator is by intuition only.

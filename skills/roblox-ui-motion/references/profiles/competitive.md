@@ -29,6 +29,14 @@ The core rules still apply in full (order, budgets, exit ratio, no overlap, one 
 | Sound and feedback | immediate (within one frame), sharp, short (guess) |
 | Reduced Motion | instant state changes; colour flashes stay if they carry information (guess) |
 
+## Identity in this genre (all guesses; core I1 to I4 apply in full)
+
+The genre is not the identity: the game's profile must name its own world in a few words.
+
+- **Where identity lives (guess):** a strict shape language (one angle, one corner cut, one line weight), the type face and numerals, how team and state colours are used, and one sharp way of moving. Identity must never cost reading speed.
+- **Generic tells to tick for core I2 (guess, no clip):** angled dark panels with a neon edge and nothing else; a stock esports font; hexagon or carbon patterns; red against blue with no system; glitch transitions.
+- **Benchmark (core I4):** optional, one successful game; borrow anchors, restraint, type, timing and hierarchy, never its art, logos, icon sets, exact layouts or trade dress.
+
 ## Open questions for the owner or new evidence
 - Scoreboard and kill feed timing have no evidence at all.
 - Whether result screens may use the rare budget every match (they are seen every few minutes).
