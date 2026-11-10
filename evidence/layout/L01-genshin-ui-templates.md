@@ -4,13 +4,14 @@ category: layout
 source: "\"Genshin Impact UI Templates (InochiPM)\": a fan-made template sheet recreating Genshin Impact's character menus, wish banner, wish result and item cards"
 captured: 2026-11-10
 capture: still (1192 x 670)
-rating:             # the owner's 1-5, not given yet
+rating: 4.5
 verdict: good       # owner: "I honestly quite like the UI look of AAA games like genshin"
 tags: [layout, benchmark]
 ---
 # L01 Genshin UI templates (InochiPM)
 
 **Owner, 2026-11-10:** "I honestly quite like the UI look of AAA games like genshin. One example could be" (this sheet). Clip 07 (rated 5) moves in the same manner.
+**Owner's rating, 2026-11-10:** 4.5, "purely because it cannot fit on most *roblox* game type, but doesn't stop being great and unique". **No benchmark:** the owner set none (Genshin is not a benchmark in any profile).
 **Use:** principles only (core I4). Never its art, logo, icon set, card shapes or exact layouts.
 
 ## What is on the sheet
@@ -35,7 +36,7 @@ tags: [layout, benchmark]
 - Lorem ipsum and "?????" are template placeholders (fine for a template, a fail if shipped: R12).
 - Copying this look outright makes a game read as "a Genshin clone" (I2 and I4): borrow the principles, build the identity from the game's own world.
 
-## Proposed layout rules (for the owner's ruling; not in the skill yet)
+## Layout rules (adopted by the owner 2026-11-10: "Adopt L1 to L7")
 | # | Proposed rule | Evidence |
 |---|---|---|
 | L1 | Two surfaces at most for the whole UI (for example a menu surface and a card surface), both from the game's identity. | L01, 07 |

@@ -1,6 +1,6 @@
 # Layout craft: turning a mockup into a finished screen
 
-Working method, not taste rules. The taste rules are in `core-rules.md` (owner-adopted); where this file names one, it cites it. Numbers here are starting points: the game's UI kit and the owner's rulings win.
+Working method. The owner-adopted rules are in `core-rules.md`, including the layout rules L1 to L7; where this file names one, it cites it. Numbers here are starting points: the game's UI kit and the owner's rulings win.
 
 ## 1. Read the sketch as intent, not as pixels
 
@@ -15,6 +15,7 @@ Working method, not taste rules. The taste rules are in `core-rules.md` (owner-a
 - **One alignment grid.** Left edges line up; columns share widths; a centred block is centred on its visual mass, not its box.
 - **Margins.** The same inner padding on all four sides of a panel unless the design calls for an asymmetry on purpose (a title board, a tab strip). Keep a clear margin to the screen edges.
 - **Density follows the job.** A shop grid can be dense; a reward moment needs air around the hero.
+- **Surfaces (L1):** two treatments at most for the whole game. **Hero in the centre (L3)**, text in side columns. **Anchors and the primary button fixed (L4, L5).**
 - **Depth in layers, back to front:** backdrop or dim; panel (frame and surface); content; the hero (raised: larger, a glow or a stage, R8); overlays (tooltips, toasts). Each layer has one treatment, used everywhere.
 
 ## 3. Hierarchy (R8, R9)

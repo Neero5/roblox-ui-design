@@ -38,13 +38,13 @@ Do not edit. Return a short ranked list: the finding, the rule it breaks (id), t
 ## Rules (details and checks in `references/core-rules.md`)
 
 Identity, checked first: **I1** every element belongs to the one identity; **I2** consistent but interchangeable is a fail (hide the logo: could this be any game of the genre?); **I3** every motion has a job for the player, nothing performs to show off the kit; **I4** a benchmark lends principles only.
-Layout and look: **R8** one hero per screen; **R9** hierarchy from type first, three voices at most; **R10** effects from the game's theme vocabulary only; **R12** no placeholder text; **R13** legible on the worst background.
+Layout and look: **L1** two surfaces at most; **L2** rarity colour is a system, only where it informs; **L3** the hero owns the centre, text in side columns; **L4** top bar, tabs and primary button stay put on every tab; **L5** one primary action, in the same place on every screen; **L6** one ornament family; **L7** more important screen, more empty space; **R8** one hero per screen; **R9** hierarchy from type first, three voices at most; **R10** effects from the game's theme vocabulary only; **R12** no placeholder text; **R13** legible on the worst background.
 Motion: **R1** entries in beats, hero last; **R2** frequent panels 350 ms or less, rare moments 800 ms or less; **R3** exits 40 to 65% of the entry, reverse order; **R4** no two panels visibly overlapping; **R5** in-place changes cross-fade 160 to 240 ms; **R6** something stays still; **R7** idle motion only in the hero; **R11** overshoot 5% or less, at rest within 200 ms.
 Engineering: **E1** Reduced Motion: no scale, slide, stagger or loop, changes still visible; **E2** interruptible; **E3** input live from the first visible frame; **E4** one motion table; **E5** start states set before the first frame.
 
 ## Check (light by default; full loop only on request)
 
-Light check, every time: one capture of the result at rest (and one mid-transition if motion changed), then tick in a few lines: identity carriers visible, one hero, three type voices or fewer, legible, no placeholder text, nothing frozen changed, Reduced Motion handled. Fix what fails. Report what still needs the owner's eyes.
+Light check, every time: one capture of the result at rest (and one mid-transition if motion changed), then tick in a few lines: identity carriers visible, two surfaces at most, the hero in the centre, anchors and the primary button in their places, one hero, three type voices or fewer, legible, no placeholder text, nothing frozen changed, Reduced Motion handled. Fix what fails. Report what still needs the owner's eyes.
 Full review loop (`references/review-loop.md`): only when the owner asks, or for a new full screen or a rare moment, and only after asking.
 
 ## Report

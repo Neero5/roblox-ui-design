@@ -57,6 +57,18 @@ Example of step 2 for simulators (from 01, 05, 06): the default blue header bar,
 **Owner.** 07: "it's beautifully done, specially because it mimics the successful game Genshin impact, which already proved its successful execution." 03: "It gives off "Elden Ring" vibes".
 **Note.** The owner's word is "mimics". The adopted I4 text limits that to execution principles; where a build and this hard line seem to disagree, the hard line wins and the question goes to the owner.
 
+## Layout (adopted by the owner 2026-11-10)
+
+From still references (`evidence/layout/`), owner: "Adopt L1 to L7". Evidence L01 (Genshin UI template sheet, rated 4.5: "purely because it cannot fit on most *roblox* game type, but doesn't stop being great and unique") and clips 07, 04, 03. These are principles: they hold in any genre and any identity. The AAA look they came from is NOT a default style (owner: it does not fit most Roblox game types), and no benchmark is set by them.
+
+- **L1 Two surfaces at most.** The whole UI uses at most two surface treatments (for example a menu surface and a card surface), both from the game's identity. Check: list every distinct panel or card fill, frame and material across the game's screens; more than two is a fail unless the profile gives a reason.
+- **L2 Rarity colour is a system.** Rarity or tier colours form one fixed set and appear only where they carry information (a badge, a band, stars, the best result). The rest of the UI stays neutral. Check: every rarity-coloured pixel answers "which tier is this?"; a rarity colour used as decoration is a fail.
+- **L3 The hero owns the centre.** The hero (character, item, reward, sculpture) takes the middle; text sits in side columns or under it; the space between stays empty. Check: on the resting capture, nothing but the hero overlaps the centre third.
+- **L4 Fixed parts stay put.** Top bar, tab list and the primary button keep the same position on every tab of a screen; a tab changes only its content (and at most the backdrop's hue). Check: overlay two tabs' captures; the anchors must match to the pixel.
+- **L5 One primary action, one place.** Each screen has one primary action, visibly the strongest button, in the same position on every screen of the game (the profile names the position). Secondary actions are quieter.
+- **L6 One ornament family.** A few motifs and one line weight, quiet everywhere, from the game's theme vocabulary. Check: list the ornaments; any outside the family is cut.
+- **L7 Emptiness follows importance.** The more important the screen or moment, the more calm empty space around its content; dense grids belong to browsing screens only.
+
 ## Choreography
 
 ### R1. A panel arrives in beats
