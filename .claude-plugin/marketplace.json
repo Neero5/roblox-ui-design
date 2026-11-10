@@ -1,0 +1,11 @@
+{
+  "name": "roblox-ui-design",
+  "owner": { "name": "Neero5" },
+  "plugins": [
+    {
+      "name": "roblox-ui-design",
+      "source": "./",
+      "description": "Polished Roblox UI motion: core rules, genre profiles, Roblox recipes, a frame-capture review loop."
+    }
+  ]
+}

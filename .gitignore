@@ -1,0 +1,6 @@
+# Reference videos never go in git: frames and notes only
+*.mp4
+*.mov
+*.webm
+*.mkv
+.DS_Store
