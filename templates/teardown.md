@@ -36,7 +36,7 @@ Type (case, tracking, weights), colour roles, density, framing, how it sits on t
 (Name it even in a good clip: placeholder text, jank, too long, noise.)
 
 ## Roblox recipe
-Which tools build it here: `TweenService` (style/direction), `UIGradient` offset, `CanvasGroup.GroupTransparency`, `UIScale`, `ClipsDescendants` masks, `ParticleEmitter` in a `ViewportFrame`, text effects, etc. Name the `UIKit.MOTION` entry it maps to, or the new one it needs.
+Which tools build it here: `TweenService` (style/direction), `UIGradient` offset, `CanvasGroup.GroupTransparency`, `UIScale`, `ClipsDescendants` masks, 2D sparkle (ImageLabel bursts, flipbooks; particles do not render in a `ViewportFrame`), text effects, etc. Name the game's motion-table entry it maps to, or the new one it needs.
 
 ## Fit for Sculpt Me!
 Keep / adapt / refuse, against [[Pillars]] and the owner's "subtle, not noisy" rule.

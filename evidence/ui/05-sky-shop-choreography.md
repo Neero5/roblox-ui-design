@@ -45,7 +45,7 @@ The jet fly-by: the featured item performs itself, on a slow loop, while the chr
 Placeholder text ("Insert description here...") is the loudest slop tell in the set. The entry is three to four times too long for a frequently opened panel. All cards shout equally. Decoding text is a sci-fi idea in a cloud shop.
 
 ## Roblox recipe
-Beats as a timed list (`task.delay` per beat, or one sequence helper); ornaments `popIn` on a `UIScale` with a small `ParticleEmitter` puff inside a `ViewportFrame` or a sprite flipbook; ambient fly-by on a 3-5 s timer, paused under Reduced Motion and while the panel is hidden.
+Beats as a timed list (`task.delay` per beat, or one sequence helper); ornaments `popIn` on a `UIScale` with a small 2D puff (ImageLabel burst or a sprite flipbook; a `ParticleEmitter` does not render inside a `ViewportFrame`); ambient fly-by on a 3-5 s timer, paused under Reduced Motion and while the panel is hidden.
 
 ## Fit for Sculpt Me!
 Keep the beat order and the hero-only ambient loop (our Store Featured block, the kiosk). Compress the entry to about 350 ms. Refuse the scramble text and the all-saturated cards.
