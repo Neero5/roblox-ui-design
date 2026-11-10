@@ -4,7 +4,7 @@ category: ui
 source: "TikTok @ecrobloxgroup, "Did claude cook?": a mining sim Mines travel panel, a travel cut-scene, Pickaxe Skins"
 captured: 2026-11-10
 capture: filmed
-rating: 3
+rating: 2.5
 verdict: fine
 keep: ['panel pop with a small overshoot', 'a location title card as the travel transition ("VOID ABYSS / NOW ARRIVING")', 'skin panel: big preview left, grid right, Roll x1 / x10']
 avoid: ['dense grid where every card has equal weight']
@@ -13,7 +13,7 @@ tags: [motion, ui-pilot]
 # UI motion 06 Mines panel filmed
 
 **Source:** TikTok @ecrobloxgroup, "Did claude cook?": a mining sim Mines travel panel, a travel cut-scene, Pickaxe Skins  ·  **Clip length:** 28.3 s  ·  **fps:** 29.97  ·  **Capture:** filmed
-**Rating and verdict:** proposed by Claude (2026-11-10), the owner rules.
+**Rating and verdict:** 2.5, the owner's ruling 2026-11-10: "It's okay, the UIs are somewhat unique but its essence stills fall under the generic category"
 
 ## Intent
 Choosing where to go should feel like a trip, not a menu click.

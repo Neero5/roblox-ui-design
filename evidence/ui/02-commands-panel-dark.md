@@ -13,7 +13,7 @@ tags: [motion, ui-pilot]
 # UI motion 02 Commands panel dark
 
 **Source:** TikTok @bbstudios4, "U rid ur Claude of slop ui": a dark admin Commands panel over a grey test baseplate  ·  **Clip length:** 52.6 s  ·  **fps:** 30  ·  **Capture:** screen
-**Rating and verdict:** proposed by Claude (2026-11-10), the owner rules.
+**Rating and verdict:** 4, the owner's ruling 2026-11-10: "It's very solid, the whole thing is unique and all its tabs and elements match its red, ninja identity. It's consistent too, but what stands out the most from it are the animations (closing/opening, switching tabs etc)"
 
 ## Intent
 An admin panel that feels crafted, not a default list: it arrives and leaves with intent.

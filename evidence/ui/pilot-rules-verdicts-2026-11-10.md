@@ -59,3 +59,16 @@ Scope: the rules are for Roblox games in general (a reusable skill); genre-depen
 - Refinements (R3 exit 40 to 65% of the entry; R5 160 to 240 ms; R4 allows a cross-dissolve of content inside the same frame for 160 ms or less): owner "refinements stand too".
 - New clip 07 (@santonixs): owner "I like this one quite a lot too" read as a 5; see `INDEX.md` for which number is which video.
 
+## Third ruling (2026-11-10): the owner's ratings of clips 01 to 07
+| # | Rating | Owner's words |
+|---|---|---|
+| 01 | 2.5 | "It's not bad because it's consistent and matches today's incremental game style. However, it's too generic, it matches 90% of typical simulation games." |
+| 02 | 4 | "It's very solid, the whole thing is unique and all its tabs and elements match its red, ninja identity. It's consistent too, but what stands out the most from it are the animations (closing/opening, switching tabs etc)" |
+| 03 | 4 | "It gives off \"Elden Ring\" vibes, in other words, the UI gives off somewhat of a AAA feel with its looks and matching identities. The consistent color palette and animations also make it worth mentioning." |
+| 04 | 4.5 | "Very impressive aswell, in the same way 03 stands out, its RPG identity pops up immedately and catches the eye with its dynamic animations and fluidity." (was 5 earlier the same day) |
+| 05 | 3 | "Similar reasons as 01, but the 0.5 comes from the way it catches the eye, but it gets point deductions due to is maximalistic looks, as if trying too hard to be unique and a \"showoff\" of its UI elements, with jets going everywhere and everything with movements, almost sloppy." |
+| 06 | 2.5 | "It's okay, the UIs are somewhat unique but its essence stills fall under the generic category" |
+| 07 | 5 | "No words, it's beautifully done, specially because it mimics the successful game Genshin impact, which already proved its successful execution. Your reasons about why it stands out are valids and correct aswell" |
+
+What the ratings say (Claude's reading, proposed as rules I1 to I4 for the owner's ruling): the score follows IDENTITY first (a UI that belongs to one nameable world), consistency is necessary but not enough (01), generic loses points even when tidy (01, 06), showing off loses points (05), and a proven benchmark game executed well wins (07, 03).
+

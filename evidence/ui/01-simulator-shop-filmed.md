@@ -4,7 +4,7 @@ category: ui
 source: "TikTok @93fuzzy, "Claude made ts in 2 prompts": a simulator HUD, Shop, Rebirth and Daily Rewards"
 captured: 2026-11-10
 capture: filmed
-rating: 2
+rating: 2.5
 verdict: fine
 keep: ['NOW > AFTER comparison card for an upgrade', 'icon tab rail beside the panel']
 avoid: ['eight colours at equal weight', 'generic simulator template']
@@ -13,7 +13,7 @@ tags: [motion, ui-pilot]
 # UI motion 01 Simulator shop filmed
 
 **Source:** TikTok @93fuzzy, "Claude made ts in 2 prompts": a simulator HUD, Shop, Rebirth and Daily Rewards  ·  **Clip length:** 16.2 s (12 s of game)  ·  **fps:** 30  ·  **Capture:** filmed
-**Rating and verdict:** proposed by Claude (2026-11-10), the owner rules.
+**Rating and verdict:** 2.5, the owner's ruling 2026-11-10: "It's not bad because it's consistent and matches today's incremental game style. However, it's too generic, it matches 90% of typical simulation games."
 
 ## Intent
 Show a whole simulator UI kit at a glance: HUD, Shop (Eggs, Passes), Rebirth, Daily Rewards.

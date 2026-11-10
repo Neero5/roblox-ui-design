@@ -4,7 +4,7 @@ category: ui
 source: "TikTok @weekndviolence, "Day 2 of making a game with ChatGPT and Claude": Aftertwelve start screen, slot select, origin/wield/home carousels, character creation, Satchel inventory"
 captured: 2026-11-10
 capture: screen
-rating: 5
+rating: 4.5
 verdict: good
 keep: ['value changes cross-fade in place, about 200 ms', 'the character stays still as the anchor', 'type carries the hierarchy: tracked label, large value, muted line']
 avoid: ['faint text on bright snow', 'a frame where two screens overlap (10.0 s)']
@@ -13,7 +13,7 @@ tags: [motion, ui-pilot]
 # UI motion 04 Aftertwelve menus
 
 **Source:** TikTok @weekndviolence, "Day 2 of making a game with ChatGPT and Claude": Aftertwelve start screen, slot select, origin/wield/home carousels, character creation, Satchel inventory  ·  **Clip length:** 63.3 s  ·  **fps:** 30  ·  **Capture:** screen
-**Rating and verdict:** 5, confirmed by the owner 2026-11-10 ("04's pretty solid").
+**Rating and verdict:** 4.5, the owner's ruling 2026-11-10: "Very impressive aswell, in the same way 03 stands out, its RPG identity pops up immedately and catches the eye with its dynamic animations and fluidity."
 
 ## Intent
 A calm, premium onboarding: choices feel considered, not busy.

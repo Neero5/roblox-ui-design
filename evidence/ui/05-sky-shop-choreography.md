@@ -13,7 +13,7 @@ tags: [motion, ui-pilot]
 # UI motion 05 Sky shop choreography
 
 **Source:** TikTok @6ix13, "Completely made by ai / Go and start printing": a simulator Shop with Exclusives, Passes, Boosts  ·  **Clip length:** 60.4 s  ·  **fps:** 30  ·  **Capture:** screen
-**Rating and verdict:** proposed by Claude (2026-11-10), the owner rules.
+**Rating and verdict:** 3, the owner's ruling 2026-11-10: "Similar reasons as 01, but the 0.5 comes from the way it catches the eye, but it gets point deductions due to is maximalistic looks, as if trying too hard to be unique and a "showoff" of its UI elements, with jets going everywhere and everything with movements, almost sloppy."
 
 ## Intent
 Make the shop feel lively and premium: a reward to open.
