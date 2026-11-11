@@ -21,7 +21,7 @@ tags: [layout]
 - **Origin = stacked choice cards:** title, a one-line flavour line in italics, two bullet perks; the chosen card has a lit edge.
 - **Satchel:** a pocket-watch dial holds the equipment slots around the avatar (head, torso, weapon, trousers on the hour marks); a search field, underlined category tabs and a dark grid on the right; the selected item's name and stats under the grid with angled EQUIP and DROP buttons.
 
-## Principles beyond L1 to L7
+## Principles beyond L1 to L7 (adopted 2026-11-10 as L8 to L10 and the L4 extension: "Adopt them all")
 - **The signature motif comes from the game's NAME:** "Aftertwelve" -> clocks, hours, roman numerals. The dial is the start screen ornament, the slot numbering and the inventory itself. This is the strongest identity move in the whole set (I1).
 - **One skeleton for a flow:** every step of a flow uses the same title spot, content side, back spot and anchor.
 - **Browse = selection beside a big detail** (slot list + detail card; grid + item block).

@@ -21,7 +21,7 @@ tags: [layout]
 - **Choose Your Hero:** cards fanned in a row, the chosen one framed and in front, the others stepping back and darker; one wide button under them.
 - **Frame language:** dark brown glass, a 1 px light border, a diamond medallion with a letter at the top centre, small diamond studs at the corners. The same frame on every panel (L1, L6).
 
-## Principles beyond L1 to L7
+## Principles beyond L1 to L7 (adopted 2026-11-10 as L8 to L10 and the L4 extension: "Adopt them all")
 - A **signature motif from the game's premise** (blade-shaped diamonds and studs for a sword game), repeated on every panel.
 - **Browse = selection beside a big detail** (preview card + list), never a popup per item.
 - **The selected state is quiet but unmistakable:** a filled diamond, a lighter frame, the chosen card in front; no big colour fill.

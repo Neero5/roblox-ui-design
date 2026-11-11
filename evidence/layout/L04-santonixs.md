@@ -20,7 +20,7 @@ tags: [layout]
 - **The page's own device on the right:** an arc of round slots for accessories, a circular orbit for the skill core, big serif numerals 1, 2, 3 for item slots. Each page gets one memorable device while the frame stays fixed.
 - **Inventory = grid + detail:** a grid of item tiles on the left (rank letter in the corner, +level under it, the chosen tile framed in gold), a large detail on the right (name, stars, rank letter, description, Select).
 
-## Principles beyond L1 to L7
+## Principles beyond L1 to L7 (adopted 2026-11-10 as L8 to L10 and the L4 extension: "Adopt them all")
 - **Fixed frame, one signature device per page:** the rail, the title spot and the button never move; each page earns one striking device (arc, orbit, numerals).
 - **Browse = selection beside a big detail** (grid + detail; slots + detail block).
 - **Quiet selected state:** a thin gold frame on the tile, a lit rail icon.
