@@ -1,0 +1,85 @@
+---
+type: reference
+category: vfx
+captured: 2026-11-11
+status: first pass, owner ratings pending
+---
+# VFX V01 to V10: first-pass teardowns
+
+One pass per clip, zoomed only on the main effect (frames in `media/`). Timings are measured at the clip's fps from the zoom sheets. Ratings and verdicts are the owner's to give; nothing here is a rule yet.
+
+## V01 Gold summoning circle (@espada.four3), built in Roblox Studio
+- **Moment:** a summoning or ascension: a ritual circle charges and fires a pillar of light.
+- **Layers:** floor rune circle (decal rings at several radii); thin rising rings and vertical gold beams; a cloud vortex disc overhead; final: a white-gold pillar with a bright core, a multi-ring floor circle, orbiting shards and sparks. ![[V01-overview.jpg]] ![[V01-finale.jpg]]
+- **Colour:** ONE hue (gold) plus a white core, on black.
+- **Works:** one hue with value contrast; rings at different radii and speeds give depth; the floor circle anchors it.
+- **Weak:** a very long build (tens of seconds, a showcase); tested only on a black void, so readability on a real map is unknown.
+
+## V02 Caged egg hatch (@jarvislabsreal)
+- **Moment:** unlock and hatch, then the reveal of a rare pet. ![[V02-overview.jpg]] ![[V02-unlock.jpg]] ![[V02-hatch.jpg]]
+- **Timeline:** cyan lock arrows pulse (0 to 3.0 s, the "interaction"); **3.1 s unlock flash** (white core, a ring, radial sparks, about 300 ms); 3.4 to 3.6 s the cage bars fan open; 4.4 to 4.9 s a **charge** (rays, the egg's cracks brighten); **5.1 s one white flash frame**; 5.2 to 5.4 s a spark shell and a floor shockwave ring; 5.5 to 6.3 s sparks rise and fade (about 800 ms); 7.1 s cut to the reveal; 11 to 12 s the pet's own purple burst.
+- **Shape:** two escalating stages (unlock, then hatch), each anticipation, flash, shockwave, debris, linger.
+- **Colour:** warm gold for the build; the reveal switches to the pet's rarity hue (purple). Cyan only on the lock (interaction).
+- **Works:** escalation in two steps; the flash is one frame; the linger is long and soft; the palette switch tells "this is rare".
+- **Weak:** the cyan lock arrows look like UI pasted in the scene; the cut back to a closed cage (7.0 s) is a loop seam.
+
+## V03 Anime ultimate (itsjustfx3)
+- **Moment:** a cinematic ultimate move. ![[V03-overview.jpg]] ![[V03-impact-frames-1.jpg]] ![[V03-impact-frames-2.jpg]]
+- **Timeline:** 2.4 to 2.7 s small charge; **2.8 s a black dome** closes over the area (the world darkens); 2.9 s impact flash and a lava splash; 3.0 to 3.8 s stylised fire everywhere; **3.9 to 4.1 s full-screen impact frames** (speed-line slashes, white-yellow on black); 4.2 s one full red frame; 4.3 to 4.8 s full-screen orange; 4.9 to 6.1 s a giant stylised slash swirl (orange, magenta); **6.2 to 6.4 s inverted frames** (white stars on black, then black stars on white, about 3 frames); 6.5 to 7.1 s aftermath: a red pillar inside the dome.
+- **Colour:** red, orange, magenta, black; hand-drawn (cel-shaded) shapes.
+- **Works:** anime language done with conviction: darken the world first, impact frames, colour inversion, hand-drawn fire.
+- **Weak / risk:** about 3 s of full-screen takeover: in play it hides everything; flashing and inversion are a photosensitivity risk; screen-level effects should be limited to cutscene moments.
+
+## V04 Ice and lightning skills (itsjustfx3)
+- **Moment:** combat skills; one sample measured. ![[V04-overview.jpg]] ![[V04-ice-burst.jpg]]
+- **Timeline:** 4.4 to 4.8 s a charge orb glows and pulls in; **4.9 s white bloom flash** (1 to 2 frames); 5.0 to 5.2 s radial ice shards and a ground ring burst; 5.3 to 5.6 s a crescent sweeps along the ground; 5.6 to 5.9 s shards linger and shrink. Impact to clean: about 1 s.
+- **Colour:** one hue family (icy blue) plus white.
+- **Works:** short, readable phases; the effect hugs the ground so the character stays visible; one hue.
+- **Weak:** several skills look alike (radial shard burst each time).
+
+## V05 Auras, RNG Battlegrounds part 1 (@mojangopa)
+- **Moment:** equipped auras (idle loops) on a character. ![[V05-overview.jpg]]
+- **Each aura is ONE named concept:** Celestial (gold wings, halo, rune floor), Midnight Lotus (a pink lotus, falling light streaks), Eclipse (a black sun with a corona over a fire ring), Unbound (white chains and a rune circle), Chronos V2 (crystal spikes), Unwritten (black ink pages).
+- **Works:** the name and the shape agree; one or two hues each; a floor circle anchors most.
+- **Weak:** some (Midnight Lotus, Eclipse) are bigger than the character and fill the frame: in a crowded server they would cover other players.
+
+## V06 Dark-energy shot (itsjustfx3)
+- **Moment:** a projectile hit. ![[V06-overview.jpg]] ![[V06-orb.jpg]]
+- **Timeline:** 0.8 to 1.1 s a thin red projectile with a trail; 1.1 to 1.6 s a black-red sphere grows with smoke; 1.7 to 1.8 s red X slashes; **1.9 s red flash pillar**; 2.0 to 2.1 s rings collapse inward; 2.3 s a cracked black core remains. Later a dark vortex and a large pink burst.
+- **Colour:** black and red, white only at the peak.
+- **Works:** dark core with a bright rim reads as "dark energy"; the collapse inward before the core is a good beat.
+- **Weak:** many stages in a short time; the pink burst at the end changes hue for no clear reason.
+
+## V07 Black hole (@cordhub_)
+- **Moment:** a black hole opens, rages and collapses. ![[V07-overview.jpg]] ![[V07-black-hole.jpg]]
+- **Timeline:** 1.0 s a thin beam rises; 1.4 s a ring pulse flash; 2.0 s the disk forms; 2.4 to 6 s lightning, rocks lifted; 7.0 s collapse; **8.0 s a white star flash**; 9.0 s gone.
+- **Colour:** rainbow (pink, cyan, yellow, white) on deep blue.
+- **Works:** a clear arc (form, rage, collapse, flash, gone); the lifted rocks tie it to the world.
+- **Weak:** the rainbow palette has no reason (a black hole is not a rainbow); lightning is generic decoration.
+
+## V08 Fable 5.2 vs Opus 5.5, same three prompts (@jarvislabsreal)
+- **Moment:** three auras by two models. ![[V08-overview.jpg]] ![[V08-overview-2.jpg]]
+- **Black Hole:** Opus: a clean gold ring disk with floor rings. Fable: a tilted ring with gold debris flying around it.
+- **Nebula Wings:** Opus: soft pink wings from particles. Fable: layered wing shapes with a nebula texture inside, a spiral galaxy on the floor.
+- **Supernova Crown:** Opus: a cyan star with floor rings. Fable: a large crystalline white star with ring layers.
+- **Use:** the owner's preference between the two shows which qualities matter (detail and texture, or cleanness).
+
+## V09 Purple cutscene (@bbstudios4)
+- **Moment:** a cinematic reveal. ![[V09-overview.jpg]]
+- **Beats:** camera through vault rings; chains; a seal; a purple energy burst; a crystal with a halo. 24 fps.
+- **Works:** camera moves do half the work; one hue (purple) plus white.
+- **Weak:** dark and murky in places; hard to read what breaks.
+
+## V10 Auras, RNG Battlegrounds part 2 (@mojangopa)
+- **Moment:** equipped auras. ![[V10-overview.jpg]]
+- **Each ONE concept:** Axiom Zero (blue gyroscope rings), Rimeheart (ice crystals), Razorbloom (teal flower blades), Saum ("liminal" text rings, black and white), Gilded Hourglass (a gold hourglass over a clock floor).
+- **Works:** the strongest concept-to-shape match in the set (Gilded Hourglass); floor circles anchor them.
+- **Weak:** like V05, several are much bigger than the character.
+
+## Patterns seen across the set (not rules yet; waiting for the owner's ratings)
+- Anticipation, a 1 to 2 frame flash, a shockwave or ring, debris, a soft linger (V02, V04, V06, V07).
+- One hue family plus a white core (V01, V04, V09); multi-hue only with a reason (V02's rarity switch) versus without one (V07's rainbow).
+- A floor circle anchors auras and charges (V01, V05, V10).
+- Auras as one named concept each (V05, V10).
+- Screen-level effects (darkened world, impact frames, inversion) reserved for cinematic moments (V03).
+- Size against the character: ground-hugging effects keep the player readable (V04); oversized auras cover the scene (V05, V10).
