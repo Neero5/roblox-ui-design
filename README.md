@@ -7,7 +7,7 @@ It is built from real reference clips: each clip is turned into frames and measu
 ## Install (once per computer)
 In Claude Code:
 ```
-/plugin marketplace add Neero5/roloblox-ui-design
+/plugin marketplace add Neero5/roblox-ui-design
 /plugin install roblox-ui-design@roblox-ui-design
 ```
 Update later with `/plugin marketplace update roblox-ui-design`.
