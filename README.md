@@ -15,6 +15,9 @@ Update later with `/plugin marketplace update roblox-ui-design`.
 ## Call a skill by its full name
 Plugin skills are namespaced: `/roblox-ui-design:roblox-ui-design` and `/roblox-ui-design:roblox-vfx`. Start a request with one of these to load the skill for certain.
 
+## Ready-made prompts
+- `prompts/improve-vfx-category.md`: improve every effect of one category (win effects, abilities, pickups...): audit first, then build only what you pick.
+
 ## Use in a game
 Copy `templates/project-profile.md` into the game's repo (for example `docs/ui-profile.md`), pick a genre profile and fill in the theme vocabulary. The skill reads it first.
 
