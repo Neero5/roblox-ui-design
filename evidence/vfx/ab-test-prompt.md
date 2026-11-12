@@ -52,3 +52,11 @@ Watch both in Play yourself, then rate each effect 1 to 5 like the clips. Useful
 6. Time and tokens each session spent.
 
 Send me both captures (or the places' scripts) and your ratings; I will compare them against the rules.
+
+
+## Round 2 (after the reference step, 2026-11-12)
+Same two sessions and the same prompt, with ONE change in the prompt body for BOTH sessions: replace the sentence "No external assets: use only built-in textures, meshes and parts." with:
+
+"Use the asset pack in ServerStorage.VFXPack (textures, meshes, template effects) and built-in assets; nothing else."
+
+Before starting, insert the same pack into both new places at ServerStorage.VFXPack (for example the owner's VFX pack saved from Sculpt Me! as a model file). Session B's first line stays `/roblox-ui-design:roblox-vfx`; the skill will now pick rated reference frames and compare its peak frame against them.

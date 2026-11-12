@@ -38,3 +38,8 @@ Owner: "All rules approved. Use Fable to write the vfx skill". X1 to X6 are adop
 3. Takeover length: "depends on attack type, which are things that are decided when designing the game in real time. But of course, it is always good to not take too long".
 4. Who sees screen effects: "To convey impact, it's always better to be for everyone who's within the attack's effective range."
 5. Screen shake and impact frames: "some abilities should have that too, always for attacks that are strong attacks. But obviously, it's only reserved for unspammable abilities, such as ultimates, heavy impact attacks, etc".
+
+## Proposed rule X7 (Claude, 2026-11-12, from A/B test 1; for the owner's ruling)
+| # | Proposed rule | Evidence |
+|---|---|---|
+| X7 | **One bright hero shape at the peak.** At the peak frame, one shape is clearly the brightest and crispest thing on screen (a glowing sigil, a flash core, a pillar) and carries the concept; every other layer is dimmer and supports it. Many mid-value translucent pieces with no bright core fail, however many there are. | A/B test 1: the owner preferred A's slam (a glowing white hexagon) over B's (many translucent crystals, no bright core); V04 (white bloom at the core), V06 (flash pillar), V01 (pillar core) |

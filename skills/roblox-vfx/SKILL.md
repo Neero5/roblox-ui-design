@@ -17,18 +17,20 @@ Goal: effects that look made by a careful studio. Each one is a single named con
 1. The game's profile (`docs/ui-profile.md` or a file with `type: ui-profile`): the IDENTITY, the signature motif, the theme vocabulary, refused effects, Reduced Motion policy, and the VFX block (quality levels and what each drops, the frequent and rare effect lists, hue per element or rarity). If the profile or its VFX block is missing, draft it from `../../templates/project-profile.md` and what the repo shows, and ask the owner in ONE short round. Never design on unconfirmed guesses.
 2. **The owner's rulings win.** Read the game's decision log and style rules (the profile lists their paths). Any colour, size, duration, count or effect the owner has ruled on is FROZEN: never change it on your own. If a rule here disagrees with a ruling, propose the change in one line; the ruling stands until the owner says otherwise.
 3. The game's existing VFX code: its effect table or module, templates folder, pooling, quality levels, the remote that triggers effects. Build with them; never paste a second VFX system beside the first. Tables the owner tunes by hand are the owner's: add or change a row only as asked.
+4. **Assets.** Find the game's own VFX assets (a texture and mesh pack, template effects, flipbook sheets). Use them: the look is capped by the textures and meshes, not by the rules. If the game has none and the effect needs custom textures or meshes (slash, crack, flare sheets; shard meshes), say so and propose making them (Blender, drawn sheets) before building; built-in textures alone give a generic look (A/B test 1).
 
 ## Mode A: design an effect (from a description or a reference)
 
 1. **Classify first (X1).** FREQUENT (cast or seen often: basic abilities, hits, pickups) or RARE / CINEMATIC (ultimates, heavy unspammable attacks, late-game attacks, cutscenes, rare reveals). Also note melee or ranged (X1). The profile's lists decide; if the effect is on neither list, ask. Always-on effects (auras, transformations): size and visibility come from the game type in the profile (`references/tiers.md`).
-2. **References, if any.** Take the timing, layering and shape language, never the art (I4). A video: run `tools/extract.py` from the plugin root on it first.
+2. **References (every time).** Pick one to three rated frames from `references/reference-library.md` that match the tier, effect type and element; open them and note what to take. Add the owner's own references if given (a video: run `tools/extract.py` from the plugin root on it first). Take timing, layering, shape and value, never the art (I4).
 3. **Write a short brief before building** (10 lines at most):
    - the concept name (a thing, in the game's world: "frost lance", not "blue explosion") and how colour, shape, motion and detail each express it (X5);
    - the one hue family plus the white core; any second hue and what it means;
    - the phase table with ms: anticipation, flash, burst, debris, fade (starting numbers in `references/tiers.md`);
    - the layers (4 to 6 for a frequent effect), each with its job, and the one crafted element (X4);
    - size against the character, and what stays visible (the caster, the target, other players);
-   - what Reduced Motion does, and what each lower quality level drops.
+   - what Reduced Motion does, and what each lower quality level drops;
+   - the references: one line each, what to take and what to avoid.
 4. **One direction by default.** A second only when the owner asks. If the game reviews looks first, stop after the brief or a first capture for the owner's notes.
 
 ## Mode B: build or change (a known design)
@@ -51,7 +53,7 @@ Do not edit. Return a short ranked list: the finding, the rule it breaks (id), t
 
 ## Check (light by default; more only on request)
 
-Every time: capture the **peak frame** and **one frame mid-fade** from a normal play camera. For a frequent effect, cast it several times in a row (five or more) and watch the last cast. Then tick in a few lines: the concept reads from the peak frame alone; one hue family plus white; the character and the target stay visible; no element pops on or cuts off in the mid-fade frame; clean within the tier's time; nothing left in the workspace after it ends; no screen-level effect on a frequent tier; Reduced Motion and the lowest quality level still show that it happened; nothing frozen changed. Fix what fails. Say what still needs the owner's eyes (captures miss motion feel, and some tools do not draw every layer).
+Every time: capture the **peak frame** and **one frame mid-fade** from a normal play camera. For a frequent effect, cast it several times in a row (five or more) and watch the last cast. **Compare with the reference:** the peak capture beside the chosen reference frame; name the three biggest gaps (core brightness and contrast, shape, layering, detail, size, colour) and fix the largest one or two. Then tick in a few lines: the concept reads from the peak frame alone; one hue family plus white; the character and the target stay visible; no element pops on or cuts off in the mid-fade frame; clean within the tier's time; nothing left in the workspace after it ends; no screen-level effect on a frequent tier; Reduced Motion and the lowest quality level still show that it happened; nothing frozen changed. Fix what fails. Say what still needs the owner's eyes (captures miss motion feel, and some tools do not draw every layer).
 A fuller review (frame strips with `tools/extract.py`, many casts, several players, a real map background) only when the owner asks, or for a rare moment after asking.
 
 ## Report
@@ -62,6 +64,7 @@ Two to six lines: what changed, the brief (Mode A), what the check found, anythi
 
 | File | Load it when |
 |---|---|
+| `references/reference-library.md` | Mode A, every time: pick 1 to 3 rated frames; again at the check. |
 | `references/tiers.md` | Mode A, or any timing, size or count choice. |
 | `references/vfx-rules.md` | A rule's exact wording or check is needed, or an audit. |
 | `references/roblox-vfx-recipes.md` | Writing or changing effect code or emitter properties. |
