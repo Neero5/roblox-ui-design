@@ -47,8 +47,8 @@ Starting points, not rulings. Each number carries its source: a clip id means it
 | Whole moment, live play (ultimate) | 2 to 5 s | V03 (2.4 to 7.1 s) |
 | Whole moment, cutscene or world event | 8 to 20 s | V07 (8 s), V02 (18 s), V09 (19 s) |
 | Stages | 2 to 3 escalating beats, each with its own small impact shape | V02 (unlock, then hatch), V06 |
-| Screen shake amplitude | 0.15 to 0.4 studs of camera offset, or 0.5 to 1.5 degrees | guess (V09 has shakes; not measured) |
-| Screen shake duration | 200 to 500 ms, decaying to zero, at the hit only | guess |
+| Screen shake, cutscene | offsets of about 5 to 10% of the view height (about 3 to 7 degrees of camera tilt at a 70 degree field of view), changing direction every frame (about 12 Hz), 250 to 500 ms, decaying to zero; vertical for a slam, horizontal for a blast | V09 (measured 2026-11-12: 0.21 to 0.46 s, 0.79 to 1.08 s, 4.79 to 5.29 s) |
+| Screen shake, live play (ultimate, heavy attack) | smaller than a cutscene: start at 0.5 to 1.5 degrees, 200 to 400 ms, decaying | guess (no live-play shake measured; the player must keep aiming) |
 | Shakes per moment | one per beat, 3 at most | guess |
 | Who sees shake and impact frames | every player within the attack's effective range, not only the caster and target | owner 2026-11-12: "better to be for everyone who's within the attack's effective range" |
 | Size | may exceed the character; anchor it with a floor circle or ring | V01, V05, V10 |

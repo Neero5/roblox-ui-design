@@ -78,6 +78,7 @@ One pass per clip, zoomed only on the main effect (frames in `media/`). Timings 
 - **Beats:** camera through vault rings; chains; a seal; a purple energy burst; a crystal with a halo. 24 fps.
 - **Works:** camera moves do half the work; one hue (purple) plus white.
 - **Weak:** dark and murky in places; hard to read what breaks.
+- **Screen shakes measured 2026-11-12** (phase correlation between frames, 24 fps; `media/V09-shakes.jpg`): 0.21 to 0.46 s vertical, frame-to-frame jumps up to 27 px of a 240 px view; 0.79 to 1.08 s vertical, up to 46 px; 4.79 to 5.29 s horizontal, 30 to 56 px of 576. Each changes direction every frame and decays. About 5 to 10% of the view: large, cutscene-sized.
 
 ## V10 Auras, RNG Battlegrounds part 2 (@mojangopa)
 - **Owner's rating: 4.5.** "Same as V05."
