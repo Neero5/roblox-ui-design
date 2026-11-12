@@ -17,7 +17,7 @@ Parent an emitter to an **Attachment** (emits from that point, along the attachm
 **Burst or stream**
 - `emitter:Emit(n)` fires n particles at once and ignores `Enabled` and `Rate`. This is the tool for impacts: `Enabled = false`, then `Emit`.
 - `Rate` (particles per second) runs while `Enabled = true`: charge-ups, trails of smoke, auras. To stop softly set `Enabled = false` and let live particles finish; `emitter:Clear()` removes them at once (a visible cut: avoid, X3).
-- An emitter cloned or parented in the same frame may not emit when `Emit` is called immediately; if a burst is silently missing, `task.defer` or wait one frame before `Emit` **(verify)**.
+- `Emit` works in the same statement that parents a freshly cloned emitter; no `task.defer` or frame wait is needed (checked in Studio 2026-11-12). There is no `GetParticleCount` on ParticleEmitter: count particles from a capture.
 - At low client graphics quality the engine itself draws fewer particles **(verify the exact scaling)**: never let a single particle carry gameplay meaning.
 
 **Life and motion**
@@ -89,7 +89,7 @@ A ribbon drawn behind two moving Attachments on the same part (`Attachment0`, `A
 - An Attachment is a point with an orientation inside a part; emitters, beams, trails and lights hang from it. One invisible carrier part with several attachments is a whole effect rig.
 - Save authored effects as templates (a Part, Model or Attachment holding emitters, beams and lights) in the game's templates folder; clone, place, play, clean up. Store per-emitter burst data on the template as attributes (for example an emit count, a delay, a duration: a common convention of VFX plugins, name them as the game already does) so artists retune without code.
 - Play a template: for each ParticleEmitter descendant wait its delay, then `Emit(count)` or enable it for its duration; scale counts by the quality level.
-- To follow a character, parent the attachment to a body part (or weld the carrier). Under `Terrain` an attachment's position is a world position, handy for one-shot points with no carrier part **(verify)**.
+- To follow a character, parent the attachment to a body part (or weld the carrier). Under `Terrain` an attachment's position is a world position, handy for one-shot points with no carrier part (checked in Studio 2026-11-12: `.Position` (0, 50, 0) gives `.WorldPosition` (0, 50, 0), and an emitter on it plays there).
 
 ## 6. Lights
 
@@ -117,8 +117,8 @@ Shaped meshes are the cheapest way to real detail (X4): V04's icicles are meshes
 - **Shockwave ring, mesh:** a flat ring or disc mesh on the ground, `Size` X and Z tweened outward with ease-out while `Transparency` goes to 1; thin it as it grows.
 - **Shockwave ring, particle:** one particle with a ring texture, `Orientation = VelocityPerpendicular`, the emitter aimed straight up with a tiny `Speed` (about 0.01) so the particle lies flat, `Size` growing and `Transparency` fading over its life, `Emit(1)`.
 - **Dome or sphere:** a ball with `Material = ForceField` or Neon, or an inverted-normal mesh for a dome seen from inside; scale it in, fade it out.
-- Neon's glow depends on the client's graphics quality (bloom) **(verify)**: do not rely on glow alone to make a shape read.
-- A `Highlight` flash on a hit character is a cheap impact accent; the engine shows only a limited number of Highlights at once (31 **(verify)**), so keep them brief and few.
+- Neon's glow depends on the client's graphics quality: at the lowest level the soft halo is gone and a Neon part is a flat block (checked in Studio 2026-11-12). Never rely on glow alone to make a shape read.
+- A `Highlight` flash on a hit character is a cheap impact accent; a limit of 31 visible Highlights is often quoted, but 40 drew in a Studio Play test (2026-11-12); do not depend on either figure: keep them brief and few.
 
 ## 8. Cleanup and pooling
 
@@ -163,8 +163,8 @@ local function shake(amplitude: number, duration: number) -- studs, seconds
 			return
 		end
 		local k = amplitude * (1 - t / duration) ^ 2 -- strongest at the hit, eases to zero
-		local x = math.noise(seed, t * 25) * 2 * k -- math.noise stays roughly within -0.5..0.5 (verify)
-		local y = math.noise(seed + 57, t * 25) * 2 * k
+		local x = math.clamp(math.noise(seed, t * 25), -1, 1) * k -- math.noise reaches about -1..1 (measured -0.85..0.98 in Studio 2026-11-12)
+		local y = math.clamp(math.noise(seed + 57, t * 25), -1, 1) * k
 		camera.CFrame *= CFrame.new(x, y, 0)
 	end)
 end
@@ -177,7 +177,7 @@ end
 
 - **Impact frame, drawn:** a ScreenGui (`IgnoreGuiInset = true`, a high `DisplayOrder`, `ResetOnSpawn = false`) with one full-screen ImageLabel showing a high-contrast drawn frame (speed lines, a two-tone silhouette) for about 3 frames, then removed. Preload the image with `ContentProvider:PreloadAsync` beforehand or the first play shows nothing. This is the one place a hard cut is the style; keep it to the peak.
 - **Impact frame, colour pulse:** a `ColorCorrectionEffect` parented to `workspace.CurrentCamera` (post effects work there as well as under Lighting, and stay local to this client and out of the game's Lighting setup): push `Contrast` up and `Saturation` to -1 for 2 or 3 frames, optionally with a `TintColor`, then tween back over 100 to 200 ms. Never leave it behind: restore or destroy it in every exit path.
-- **Colour inversion:** no built-in invert effect. A strongly negative `Contrast` is sometimes used for it **(verify the range and the look in Studio)**; a drawn inverted frame (white on black, then black on white) is the reliable way.
+- **Colour inversion:** no built-in invert effect. A strongly negative `Contrast` does NOT give a clean inversion (checked in Studio 2026-11-12 at -2: a messy partial shift, blue sky to orange-brown, Highlights unchanged). Use a drawn inverted frame (white on black, then black on white).
 - **Darkened world:** a dark dome mesh around the area (seen from inside), or a ColorCorrectionEffect `Brightness` dip on the camera. Do not script the game's Lighting properties unless its rules allow it; many games keep Lighting hand-tuned.
 - **White flash:** prefer a local one (an additive particle or a light pulse at the hit). A full-screen flash is a frame with `BackgroundColor3` white, `BackgroundTransparency` tweened from about 0.3 to 1 in 100 to 200 ms; do not start fully opaque outside a cutscene (guess).
 - **Photosensitivity:** no more than three full-screen flashes in any one second (WCAG 2.3.1); avoid large saturated red flashes; under Reduced Motion drop inversion and soften or drop flashes. Never chain impact frames back to back for longer than the tier allows.
@@ -189,4 +189,4 @@ end
 - Skip effects the player cannot see: past a distance cut-off, or play a reduced version (core and ring only).
 - Check the cost with the MicroProfiler and the fps readout while spamming the effect with several players' worth of casts.
 - **Quality levels:** if the game has them (the profile's VFX block), obey them; if not, propose them rather than add them silently. A labelled example of a common three-level scheme, not a rule: Full = everything; Low = particle counts scaled down, lights and secondary layers dropped, the core shape kept; Off = no cosmetic particles, but anything that carries gameplay information (a hit, a telegraph) still shows in a minimal form. Reduced Motion can map onto the lower level.
-- The engine's own graphics quality also thins particles and removes bloom at low settings; test the effect at the lowest setting once.
+- The engine's own graphics quality thins particles hard and removes bloom at low settings (checked in Studio 2026-11-12: an emitter at Rate 200 went from about 500 visible particles to about 60 at the lowest level, and the Neon halo vanished). So the SHAPE of every effect must come from meshes, beams and a few large particles that survive at low quality; dense particle clouds are decoration only. Test every effect once at the lowest setting.
