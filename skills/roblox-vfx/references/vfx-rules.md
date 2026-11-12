@@ -10,6 +10,7 @@ The identity rules I1 to I4 and the engineering rule E1 of the UI skill (`../../
 **Why.** The two 5-rated ability clips are small and quick, and the owner names that as the pattern; the clips praised as big are praised for cutscenes and rare attacks.
 **Check.** (a) The brief names the tier, and the game's profile lists the effect under it. (b) Time from the impact frame to the last visible particle: within the tier's number in `tiers.md`. (c) In the peak frame from a normal play camera, the caster, the target and a second player standing beside them are still visible (the second player is a guess at how to test "never covering other players").
 **Evidence.** V04 (5), V06 (5) against V01 (4.5), V03 (4.5), V09 (5).
+**Readable from the play camera (adopted 2026-11-12, owner: "Adopt them all").** Compact is not tiny: a frequent effect's peak shape is at least about as tall on screen as the target character, seen from the game's default camera at a normal fighting distance. Check it from that camera, not a close-up. Evidence: A/B test 2 (B's lance too small at 25 studs), V04 (shards about a character's height).
 **Owner.** V04: "Basically the model for all kind of abilities, it's small, reasonable vfx attack duration and doesn't get tiring to look at even after firing the ability multiple times. All ability like attacks that are used very often should follow this pattern." V01: "It's very decent, specially for cutscenes and rare/late game attacks for RPGs or Roguelikes."
 
 ## X2. Repeatable
@@ -52,6 +53,17 @@ The identity rules I1 to I4 and the engineering rule E1 of the UI skill (`../../
 **Check.** (a) The tier is RARE or CINEMATIC. (b) Each screen-level layer sits within the peak window in the phase table and has a duration in ms. (c) With Reduced Motion on: no shake, no inversion, flashes softened or dropped; the effect still reads (E1). (d) Count full-screen flashes in the busiest second: three or fewer.
 **Evidence.** V09 (5), V03 (4.5).
 **Owner.** V09: "the screenshakes add a lot to the impact ... the VFX of each moment really sells the feeling of power". V03: "it also does well by adding those impact frames".
+
+## X7. One bright hero shape at the peak (adopted 2026-11-12)
+**Rule.** At the peak frame, one shape is clearly the brightest and crispest thing on screen (a glowing sigil, a flash core, a pillar) and carries the concept; every other layer is dimmer and supports it.
+**Forbidden.** Many mid-value translucent pieces with no bright core, however many there are. Two shapes competing as the brightest.
+**Why.** In both A/B tests the slam the owner preferred had one glowing white shape (a hexagon sigil); the version with many translucent crystals and no bright core lost.
+**Check.** On the peak capture, name the brightest shape: it must be one shape, it must say the concept, and nothing else may match its brightness.
+**Evidence.** A/B test 1 (A's slam preferred), A/B test 2 (B's slam, "I specially like the pop-up animation for Glaciar Slam session B did"), V04 (white bloom core), V06 (flash pillar), V01 (pillar core).
+**Owner.** "Adopt them all" (2026-11-12).
+
+## E. Leave the scene as found (adopted 2026-11-12)
+Do not change lighting, the baseplate or map, the spawn or the camera unless asked: propose it instead. Remove capture and debug hooks (time-scale attributes, freeze switches, forced aim) before reporting, or list each one that stays and why. Evidence: A/B tests 1 and 2 (both sessions changed the scene and left hooks). Owner: "Adopt them all".
 
 ## Anti-slop checklist for VFX
 
