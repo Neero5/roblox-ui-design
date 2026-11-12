@@ -52,3 +52,6 @@ Owner: "All rules approved. Use Fable to write the vfx skill". X1 to X6 are adop
 
 ## Fourth ruling (2026-11-12)
 Owner: "Adopt them all": X7 (one bright hero shape at the peak), the X1 addition (readable from the play camera) and the leave-the-scene check are adopted.
+
+## Fifth ruling (2026-11-12)
+Owner: "Adopt": frequent impacts stay visible for about 0.6 to 1 s after the hit (a floor for X1's timing).

@@ -18,6 +18,7 @@ Starting points, not rulings. Each number carries its source: a clip id means it
 | Secondary beat (ground crescent, rings collapsing inward) | 100 to 300 ms | V04 (5.3 to 5.6 s), V06 (2.0 to 2.1 s) |
 | Debris linger and shrink | about 300 ms | V04 (5.6 to 5.9 s) |
 | Impact to clean, melee | about 1 s, counted from the hit | V04, rule X1; owner 2026-11-12 |
+| Impact visible, at least | about 0.6 s after the hit (flash, burst, a short linger, fade); shorter reads as nothing happened | V04 (about 1 s); A/B test 2 (about 1 s read fine, about 0.3 s too brief); owner 2026-11-12: "Adopt" |
 | Ranged attack | the travel time is extra and never cut short; the impact part still cleans in about 1 s | V06 (0.8 to 2.3 s); owner 2026-11-12: "if it's ranged, spare times are allowed, otherwise it'd make no sense to cut off ranged attacks for no apparent reason" |
 | Height at the peak | at or below about 1.5 character heights; hug the ground or the target | V04 estimate, guess |
 | Footprint, area ability | radius about 2 to 3 character heights | V04 estimate |

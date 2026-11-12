@@ -43,7 +43,7 @@ Do not edit. Return a short ranked list: the finding, the rule it breaks (id), t
 
 ## Rules (full text, checks and evidence in `references/vfx-rules.md`)
 
-- **X1 Budget by frequency.** Frequent effects are compact and short: about 1 s from the hit to clean (a ranged attack's travel time is extra, never cut short), close to the caster or target, yet at least about as tall on screen as the target character from the default play camera, never covering other players or the screen. Big, long and screen-level is for rare moments and strong unspammable attacks only.
+- **X1 Budget by frequency.** Frequent effects are compact and short: about 1 s from the hit to clean (a ranged attack's travel time is extra, never cut short), close to the caster or target, yet at least about as tall on screen as the target character from the default play camera, and visible for about 0.6 to 1 s after the hit (never a blink), never covering other players or the screen. Big, long and screen-level is for rare moments and strong unspammable attacks only.
 - **X2 Repeatable.** A frequent effect still pleases on the twentieth cast: no long holds, no full-screen flash, the same readable shape each time with small variation.
 - **X3 The impact shape.** Anticipation, a 1 to 2 frame flash, a burst or ring, debris, a soft fade. Every element fades or shrinks in and out; nothing pops on or cuts off.
 - **X4 Detail over quantity.** A few well-made elements beat many generic particles. Maximalism loses even when it impresses.
