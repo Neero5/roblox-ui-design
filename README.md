@@ -1,4 +1,4 @@
-# roloblox-ui-design
+# roblox-ui-design
 
 A Claude Code plugin that turns a simple Roblox UI mockup (plus a prompt, and references when useful) into a **professional, on-identity UI: layout, look and motion**, for any Roblox game, instead of generic "AI slop", and builds **professional Roblox VFX** (abilities, hits, auras, reveals, cutscenes) sized and timed for how often they play. Animation later.
 
