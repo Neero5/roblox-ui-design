@@ -20,7 +20,7 @@ Goal: effects that look made by a careful studio. Each one is a single named con
 
 ## Mode A: design an effect (from a description or a reference)
 
-1. **Classify first (X1).** FREQUENT (cast or seen often: basic abilities, hits, pickups) or RARE / CINEMATIC (ultimates, late-game attacks, cutscenes, rare reveals). The profile's lists decide; if the effect is on neither list, ask. An always-on effect (an aura, an ambient loop) has no adopted numbers: see `references/tiers.md`.
+1. **Classify first (X1).** FREQUENT (cast or seen often: basic abilities, hits, pickups) or RARE / CINEMATIC (ultimates, heavy unspammable attacks, late-game attacks, cutscenes, rare reveals). Also note melee or ranged (X1). The profile's lists decide; if the effect is on neither list, ask. Always-on effects (auras, transformations): size and visibility come from the game type in the profile (`references/tiers.md`).
 2. **References, if any.** Take the timing, layering and shape language, never the art (I4). A video: run `tools/extract.py` from the plugin root on it first.
 3. **Write a short brief before building** (10 lines at most):
    - the concept name (a thing, in the game's world: "frost lance", not "blue explosion") and how colour, shape, motion and detail each express it (X5);
@@ -41,12 +41,12 @@ Do not edit. Return a short ranked list: the finding, the rule it breaks (id), t
 
 ## Rules (full text, checks and evidence in `references/vfx-rules.md`)
 
-- **X1 Budget by frequency.** Frequent effects are compact and short: about 1 s from impact to clean, close to the caster or target, never covering other players or the screen. Big, long and screen-level is for rare moments only.
+- **X1 Budget by frequency.** Frequent effects are compact and short: about 1 s from the hit to clean (a ranged attack's travel time is extra, never cut short), close to the caster or target, never covering other players or the screen. Big, long and screen-level is for rare moments and strong unspammable attacks only.
 - **X2 Repeatable.** A frequent effect still pleases on the twentieth cast: no long holds, no full-screen flash, the same readable shape each time with small variation.
 - **X3 The impact shape.** Anticipation, a 1 to 2 frame flash, a burst or ring, debris, a soft fade. Every element fades or shrinks in and out; nothing pops on or cuts off.
 - **X4 Detail over quantity.** A few well-made elements beat many generic particles. Maximalism loses even when it impresses.
 - **X5 Identity at a glance.** One named concept per effect, expressed by colour, shape, motion and detail; one hue family plus a white core unless a hue carries meaning (rarity, element).
-- **X6 Screen-level effects only at the peak of rare moments.** Screen shake, impact frames, a darkened world, an inversion: brief, at the hit, never on frequent effects, off or reduced under Reduced Motion, no fast repeated full-screen flashes.
+- **X6 Screen-level effects only at the peak of rare moments.** Screen shake, impact frames, a darkened world, an inversion: brief, at the hit, never on spammable effects; strong unspammable attacks (ultimates, heavy impacts) ALWAYS get shake; seen by every player in the attack's effective range; length set per attack, kept short; off or reduced under Reduced Motion; no fast repeated full-screen flashes.
 - The identity rules of the UI skill apply unchanged: **I1** every element belongs to the game's one identity, **I2** generic fails (could this effect be in any game?), **I3** every effect has a job for the player, **I4** a benchmark lends principles only. **E1** Reduced Motion: the effect still tells the player what happened. Text: `../roblox-ui-design/references/core-rules.md` (sections Identity and Engineering).
 
 ## Check (light by default; more only on request)

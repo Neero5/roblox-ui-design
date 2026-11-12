@@ -31,3 +31,10 @@ Tool note (from V01): the owner believes the creator had Claude drive a Roblox S
 
 ## Second ruling (2026-11-12)
 Owner: "All rules approved. Use Fable to write the vfx skill". X1 to X6 are adopted.
+
+## Third ruling (2026-11-12): the skill's open points
+1. X1's 1 s: "Depends if it a ranged attack or melee attack. Naturally, if it's ranged, spare times are allowed, otherwise it'd make no sense to cut off ranged attacks for no apparent reason". (Melee: about 1 s from the hit; ranged: travel time is extra.)
+2. Auras: "Depends on game type, like in an RPG like a dragon ball inspired game or cultivation (chinese novel's fantasy world) game or any games that feel rewarding to be stronger, auras should be visible to everyone and of course be active always when it's a cosmetic or a transformation."
+3. Takeover length: "depends on attack type, which are things that are decided when designing the game in real time. But of course, it is always good to not take too long".
+4. Who sees screen effects: "To convey impact, it's always better to be for everyone who's within the attack's effective range."
+5. Screen shake and impact frames: "some abilities should have that too, always for attacks that are strong attacks. But obviously, it's only reserved for unspammable abilities, such as ultimates, heavy impact attacks, etc".

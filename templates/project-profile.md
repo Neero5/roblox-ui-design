@@ -23,4 +23,5 @@ type: ui-profile
 **Frequent effects (compact, about 1 s, no screen-level layers):** <e.g. basic attacks, hits, pickups>
 **Rare or cinematic effects (may go big; shake and impact frames at the peak):** <e.g. ultimates, hatches, win moments, cutscenes>
 **Hue system:** <hue per element or rarity if the game has one, e.g. ice = pale blue, Legendary = gold; or "one hue family per effect">
+**Auras and transformations:** <e.g. power-fantasy game: visible to everyone, always active, may be large; or: kept near the character's size>
 **Reduced Motion for VFX:** <e.g. no shake, no inversion, loops stopped, bursts kept>

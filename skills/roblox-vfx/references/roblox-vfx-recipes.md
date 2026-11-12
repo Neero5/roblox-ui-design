@@ -8,7 +8,7 @@ Engine building blocks for effects. Facts marked **(verify)** are believed true 
 - Send data, not instances: the effect key, a position or CFrame, a seed for the variation, the caster's UserId. Under StreamingEnabled a part the server points at may not exist on a far client; handle nil.
 - `RemoteEvent:FireAllClients` works. `UnreliableRemoteEvent` suits purely cosmetic, high-frequency effects (a dropped event loses only a visual); keep payloads small.
 - The caster's own client can play the effect at once on input (before the server answers) and skip the echo of its own event; other clients play it when the event arrives.
-- Screen-level layers (shake, flash, impact frames) are always client-side, and by default only for the players involved.
+- Screen-level layers (shake, flash, impact frames) are always client-side, and play for every player within the attack's effective range (owner 2026-11-12); the server sends the hit with its position and radius, each client checks its own distance.
 
 ## 2. ParticleEmitter
 
