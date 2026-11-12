@@ -1,7 +1,7 @@
 ---
 type: ui-profile
 ---
-# <Game name>: UI profile (read by the roblox-ui-design skill)
+# <Game name>: UI profile (read by the roblox-ui-design and roblox-vfx skills)
 
 **Identity:** <the UI's world in a few words a player could say, e.g. "red ninja clan", "marble sculpture studio"; not adjectives such as "clean" or "modern", not just the genre>
 **Benchmark (optional, one game at most):** <a successful game whose execution to match> / **Principles borrowed:** <anchors, restraint, type, timing, hierarchy, in words. Never its art, logos, icon sets, exact layouts or trade dress>
@@ -16,3 +16,11 @@ type: ui-profile
 **Existing motion tokens:** <path to the game's motion table, e.g. a UIKit.MOTION module, and its values>
 **Overrides of the genre profile:** <rule id: new value, with the owner's reason>
 **Style guide / decision log:** <paths in the game's repo>
+
+## VFX (read by the roblox-vfx skill; delete if the game has no effects)
+**VFX quality levels:** <e.g. Full / Low / Off, what each drops, where the setting lives; or "none">
+**Existing VFX modules and templates:** <paths: the effect table, the player module, the templates folder, the trigger remote>
+**Frequent effects (compact, about 1 s, no screen-level layers):** <e.g. basic attacks, hits, pickups>
+**Rare or cinematic effects (may go big; shake and impact frames at the peak):** <e.g. ultimates, hatches, win moments, cutscenes>
+**Hue system:** <hue per element or rarity if the game has one, e.g. ice = pale blue, Legendary = gold; or "one hue family per effect">
+**Reduced Motion for VFX:** <e.g. no shake, no inversion, loops stopped, bursts kept>

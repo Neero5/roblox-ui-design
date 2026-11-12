@@ -26,7 +26,7 @@
 | X5 | **Identity at a glance.** Each effect is one named concept that its colour, shape, motion and details all express; one hue family plus a white core unless a hue carries meaning (rarity, element). | V05, V10, V08 ("immediately communicates its entire identity via colors, shapes, movements, details") |
 | X6 | **Screen-level effects sell power, only at the peak.** Screen shake, impact frames, a darkened world or a colour inversion are allowed on rare or cinematic moments, briefly, at the hit. Never on frequent effects; off or reduced under Reduced Motion; no fast repeated full-screen flashes. | V09 ("the screenshakes add a lot to the impact"), V03 ("impact frames") |
 
-Model note (from V08): give VFX work to Opus rather than Fable (owner: similar quality, Opus conveys identity slightly better, at about half the cost).
+Model note (from V08): give VFX work to Opus rather than Fable. Owner: "Opus conveys each aura's identity slightly better. And for almost double the cost, just for a slight difference, Opus takes the upper hand".
 Tool note (from V01): the owner believes the creator had Claude drive a Roblox Studio VFX plugin; not verified here.
 
 ## Second ruling (2026-11-12)
