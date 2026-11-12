@@ -43,3 +43,9 @@ Owner: "All rules approved. Use Fable to write the vfx skill". X1 to X6 are adop
 | # | Proposed rule | Evidence |
 |---|---|---|
 | X7 | **One bright hero shape at the peak.** At the peak frame, one shape is clearly the brightest and crispest thing on screen (a glowing sigil, a flash core, a pillar) and carries the concept; every other layer is dimmer and supports it. Many mid-value translucent pieces with no bright core fail, however many there are. | A/B test 1: the owner preferred A's slam (a glowing white hexagon) over B's (many translucent crystals, no bright core); V04 (white bloom at the core), V06 (flash pillar), V01 (pillar core) |
+
+## Proposed after A/B test 2 (Claude, 2026-11-12; for the owner's ruling)
+| # | Proposed | Evidence |
+|---|---|---|
+| X1 addition | **Compact, but readable from the play camera.** A frequent effect's peak shape is at least about as tall on screen as the target character, seen from the game's default camera at a normal fighting distance. Check it from that camera, not a close-up. | A/B test 2: B's lance too small at 25 studs (B's own note); V04 (shards about a character's height) |
+| E-check | **Leave the scene as found.** Do not change lighting, the baseplate, the spawn or the camera unless asked (propose instead); remove capture and debug hooks before reporting, or list each one that stays. | A/B tests 1 and 2: both sessions changed the scene and left hooks |
