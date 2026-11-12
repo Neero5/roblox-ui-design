@@ -1,6 +1,6 @@
 ---
 name: roblox-ui-design
-description: Use when turning a Roblox UI mockup, sketch, wireframe, screenshot or written idea into a professional, finished UI (layout, look and motion), when building or changing Roblox UI that players see (ScreenGui, SurfaceGui, BillboardGui menus, HUDs, panels, shops, inventories, popups, toasts, tabs, reward and purchase screens, transitions, tweens, hover and press feedback), or when asked to make Roblox UI look polished, premium or less like AI slop, or to audit existing UI. Do not use for Luau work with no visible UI, for 3D world VFX, or for character animation.
+description: Roblox UI design and build: turn a mockup or idea into a professional, on-identity ScreenGui (layout, look, motion), change existing UI, or audit it. Use for menus, HUDs, panels, shops, popups and UI tweens. Not for 3D VFX or animation.
 ---
 # Roblox UI design
 

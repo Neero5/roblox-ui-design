@@ -1,6 +1,6 @@
 ---
 name: roblox-vfx
-description: Use when designing, building, changing, polishing or reviewing Roblox visual effects in the 3D world (ParticleEmitter, Beam, Trail, Attachment rigs, PointLight and SpotLight pulses, mesh shards and shockwave rings; ability, hit, projectile, explosion, aura, pickup, level-up, hatch, reveal and cutscene effects; screen shake, impact frames, screen flashes), or when asked to make Roblox VFX look professional, on-identity or less like AI slop. Do not use for 2D UI (ScreenGui panels, menus, HUD motion: that is roblox-ui-design), for character animation, or for Luau work with nothing visible.
+description: Roblox VFX: design, build or audit 3D effects (ParticleEmitter, Beam, Trail, meshes, lights; abilities, hits, auras, reveals, cutscenes, screen shake, impact frames). Not for UI or character animation.
 ---
 # Roblox VFX
 

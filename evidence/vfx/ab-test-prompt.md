@@ -3,7 +3,7 @@
 Two brand-new Roblox places, two Claude Code sessions, the same prompt. The only difference is the first line.
 
 - **Session A (before):** the plugin disabled (`/plugin` > disable roblox-ui-design), or a machine without it. First line: `Do not use any skill or plugin for this task.`
-- **Session B (after):** the plugin enabled. First line: `Use the roblox-vfx skill for this task.`
+- **Session B (after):** the plugin enabled. First line: `/roblox-ui-design:roblox-vfx` (the skill's full name; a plain "use the roblox-vfx skill" was not found in the 2026-11-12 run)
 
 Everything below the first line is identical. Paste it as is.
 
