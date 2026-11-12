@@ -16,7 +16,7 @@
 
 **Model choice for VFX (V08):** Opus 5.5 over Fable 5.2: "Opus conveys each aura's identity slightly better. And for almost double the cost, just for a slight difference, Opus takes the upper hand".
 
-## Proposed VFX rules (Claude, 2026-11-12, from the ratings; for the owner's ruling)
+## VFX rules X1 to X6 (proposed by Claude 2026-11-12, adopted by the owner the same day)
 | # | Proposed rule | Evidence |
 |---|---|---|
 | X1 | **Budget by frequency.** An effect players trigger often (a basic ability, a hit) stays compact and short: about 1 s from impact to clean, close to the caster or target, never covering other players or the screen. Big, long and screen-level effects are for rare moments: an ultimate, a late-game attack, a cutscene, a rare reveal. | V04, V06 (5: "doesn't get tiring ... used very often should follow this pattern") vs V01, V03, V09 (rare and cinematic) |
@@ -28,3 +28,6 @@
 
 Model note (from V08): give VFX work to Opus rather than Fable (owner: similar quality, Opus conveys identity slightly better, at about half the cost).
 Tool note (from V01): the owner believes the creator had Claude drive a Roblox Studio VFX plugin; not verified here.
+
+## Second ruling (2026-11-12)
+Owner: "All rules approved. Use Fable to write the vfx skill". X1 to X6 are adopted.
