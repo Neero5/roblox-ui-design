@@ -55,3 +55,14 @@ Owner: "Adopt them all": X7 (one bright hero shape at the peak), the X1 addition
 
 ## Fifth ruling (2026-11-12)
 Owner: "Adopt": frequent impacts stay visible for about 0.6 to 1 s after the hit (a floor for X1's timing).
+
+## Sixth ruling (2026-11-13): ratings of V11 to V14
+| # | Rating | Owner's words |
+|---|---|---|
+| V11 | 4.5 | "They could serve as example to as what's a good fire/electricity/ice vfx" |
+| V12 | 5 | "I like how the beam actually leaves an aftermath trail, the appearing animation of it is also very cleanly done: first the four point spark slowly sparks up, then the 4 clovers like wings unfold outwards, and only after all that anticipation does the beam actually fire, a devastating attack. Not only that, the map it is on is also very very solid, that belongs to models I guess but worth mentioning, because I really like how it looks." |
+| V13 | 4.5 | "Could serve as a general reference for melee attacks that have elemental effects like water, fire, electricity etc. Could also serve as animation reference too to be honest" |
+| V14 | 4.5 | "Great ability effect, note the use of flash and impact frame as it sends the dummy out flying, that's the touch that makes it impactful" |
+
+Notes for later areas: V12's map is a candidate reference for environment and models; V13 is a candidate animation reference.
+
