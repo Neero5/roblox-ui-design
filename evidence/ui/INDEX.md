@@ -13,3 +13,4 @@ The videos are not in git. "Upload file" is the name the clip had when the owner
 | 07 | @santonixs | "HOW IS EVERYTHING SO CLEAN" | An anime action RPG's character hub: Overview, Weapon, Inventory, Skill Core, Items, skill tree | 75 s | `36aeded9-92aed8a94ad59fdbd736523f5a888a24.mp4` | screen | **5 (owner)** |
 
 New clips take the next number. Rename the local file to `<number>-<creator>.mp4` if that helps: the notes never depend on the file name.
+| 08 | @bbstudios4 | "Fable 5.2 changes the game dev space" | A menu where flowing blue ribbons sweep across the screen behind a character, menu words (SKILL, ITEM, STATUS, EQUIP, CALENDAR, CONFIDANT, PERSONA, SYSTEM) in tilted hand-cut letters; a ribbon lights the hovered word | 25 s | `2d1244c4-9f502f412e69ed1349fc6ff8149e251c.mp4` | screen | (pending) |

@@ -29,3 +29,8 @@ Frame sheets from clips the owner rated, tagged so a task loads only the few tha
 | `evidence/vfx/media/V07-black-hole.jpg` | 4 | rare | world event | rainbow on blue | the spark fade as it disappears; form, rage, collapse, flash, gone | rainbow with no reason; generic lightning |
 | `evidence/vfx/media/ab1-slam.jpg` | test | rare | ground slam, ultimate | ice | LEFT (preferred by the owner): one bright, crisp hero shape (a glowing hexagon) | RIGHT: many mid-value translucent crystals, no bright core, a dark off-palette glyph |
 | `evidence/vfx/media/ab1-lance.jpg` | test | frequent | ranged hit | ice | RIGHT (preferred by the owner): a compact impact on the target that cleans up | LEFT: sigils floating near the caster read as decoration, not a hit |
+| `evidence/vfx/media/V11-overview.jpg` | pending | always-on, small | hand or weapon idle loops | fire, electric, frost; one hue each | tight shapes, bright core, held-item scale | |
+| `evidence/vfx/media/V12-bloom-cannon.jpg` | pending | rare (ultimate) | beam, hit sigil, impact frame | gold, yellow + white | a crisp four-point star as the hero shape; ring sigil; one-frame impact frame at the peak; reads on a bright map | a long hold on a frequent attack |
+| `evidence/vfx/media/V13-water-bending.jpg`, `V13-overview.jpg` | pending | frequent | thrown lance, whip, column, vortex | water; blue + white | the effect flows from the caster's hand; shapes that read as the element | |
+| `evidence/vfx/media/V14-star-beam.jpg` | pending | rare (combo finisher) | slash, burst, sky beam | violet, pink + white | one concept (stars) in every part; a sky beam finisher | a cut to black that hides play |
+

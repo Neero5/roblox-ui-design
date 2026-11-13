@@ -94,3 +94,22 @@ One pass per clip, zoomed only on the main effect (frames in `media/`). Timings 
 - Auras as one named concept each (V05, V10).
 - Screen-level effects (darkened world, impact frames, inversion) reserved for cinematic moments (V03).
 - Size against the character: ground-hugging effects keep the player readable (V04); oversized auras cover the scene (V05, V10).
+
+## V11 Clean VFX showcase (idle loops)
+- Three small elemental loops (fire, electric, frost), each a few dozen particles in one hue plus white, sized like a held item. ![[V11-overview.jpg]]
+- Works: one hue each, tight shapes, the brightest point in the core (X7). Use: hand or weapon idle effects, pickups.
+
+## V12 Bloom Cannon (@kxntiqe)
+- A bright yellow beam fires (0 to 0.2 s), a golden ring sigil with a star flare forms at the hit (0.4 to 1.0 s), the star flare holds and pulses (1.0 to 3.8 s), a radial ring charges (4.0 to 4.4 s), then a one-frame black-and-white full-screen impact frame (4.6 s) and a fire tail. ![[V12-bloom-cannon.jpg]]
+- Works: one warm hue family plus white, a crisp four-point star as the hero shape (X7), an impact frame at the peak (X6); reads well on a bright, saturated map.
+- Watch: the long hold before the impact frame suits an ultimate, not a basic attack.
+
+## V13 Water bending (@freilfrako)
+- Several abilities: a water lance thrown from the hand (about 0.4 s), a whip, a rising column with spinning rings, a vortex wrapped round the body. ![[V13-water-bending.jpg]] ![[V13-overview.jpg]]
+- Works: the effect flows from the caster's hand (it belongs to the body), one hue family (blue plus white), shapes that read as water (streams, droplets, curls). Close to V04 in scale.
+
+## V14 Star beam (@corektvfx)
+- A violet slash streak with sparkle stars (0.9 to 1.9 s), small star hits, a brief cut to black, a burst of stars (3.1 to 3.3 s), then a wide white-pink beam from the sky (3.5 to 4.9 s), gone with a fading star. ![[V14-star-beam.jpg]]
+- Works: one concept (stars) in every part; the sky beam as the finisher.
+- Watch: the cut to black is a camera trick that hides play; a learning piece ("Day 10").
+

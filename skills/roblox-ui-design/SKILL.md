@@ -21,7 +21,7 @@ Goal: take the owner's simple mockup (plus a prompt, and references when given) 
 ## Mode A: mockup to UI (the main use)
 
 1. **Read the mockup's intent.** For every box in the sketch: what it is, its job for the player, and which one is the hero. Keep the owner's arrangement (what sits where); your job is to elevate its treatment, not to move things around. If something must move (overlap, an edge, a rule), say what and why.
-2. **Read the references, if any.** Take principles (hierarchy, anchors, spacing, timing, material), never art, logos, icon sets or exact layouts (I4). A video reference: run `tools/extract.py` from the plugin root on it first.
+2. **References.** Open one to three matching sheets from `references/reference-library.md` (plus the owner's own, if given; a video: run `tools/extract.py` first). Take principles (hierarchy, anchors, spacing, timing, material), never art, logos, icon sets or exact layouts (I4).
 3. **Write a short design brief before any code** (10 lines at most): identity statement; how the frame, header, buttons, type, colour and icons express it (I1); the hero and how it stands out (R8); the three type voices (R9); the genre tells present and why they stay or go (I2); the entry and exit in one line each with their budgets (R1 to R3); what Reduced Motion does.
 4. **Lay it out with craft** (`references/layout-craft.md`): a spacing scale, an alignment grid, depth layers, every state (hover, pressed, selected, disabled, empty, locked), real content lengths, two window sizes.
 5. **One direction by default.** Make it the best you can. Offer a second direction only when the owner asks, or when the brief shows two genuinely different readings of the mockup (then ask which first).
@@ -56,6 +56,7 @@ Two to six lines: what changed, the brief (Mode A), what the light check found, 
 | File | Load it when |
 |---|---|
 | `references/layout-craft.md` | Mode A, or any new layout. |
+| `references/reference-library.md` | Mode A: pick 1 to 3 rated frames; again at the check. |
 | `references/core-rules.md` | A rule's exact wording or check is needed, or an audit. |
 | `references/profiles/<genre>.md` | Step 0. |
 | `references/roblox-recipes.md` | Writing tween or layout code. |
