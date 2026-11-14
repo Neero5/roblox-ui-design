@@ -91,3 +91,4 @@ Owner: "Keep the 300 ms cap, confirm the rest".
 - Clip 08 (@bbstudios4 ribbon menu): 4, "It's great but probably wouldn't fit aesthetically and mechanically for most of my game ideas."
 - L05 (@mystyismee RPG UI kit, 19 stills): about 4.5, "they're great for my upcoming rpg game i wanna make". Five principles (see below) adopted as RPG-only.
 - L05 principles and weak points: "Keep them RPG-only. I also agree with the weak points. As for the principles, adopt them". They are RPG1 to RPG5 in the new genre profile `skills/roblox-ui-design/references/profiles/rpg.md`.
+- Clip 09: 5, "I'm honestly speechless, it's really well done. I don't know what to comment on it. And I agree with your phases". Clip 10: 5, "Comparable with 10" (read as 09). The health-drain phases in `profiles/rpg.md` are owner-confirmed.

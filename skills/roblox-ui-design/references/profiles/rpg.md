@@ -1,11 +1,11 @@
 ---
 profile: rpg
-status: evidenced (thin)
+status: evidenced
 evidence: [L05, L01, L02, L03, L04, 03, 04, 07]
 ---
 # Profile: RPG (action RPG, dark fantasy, anime RPG)
 
-**Owner ratings:** L05 @mystyismee RPG UI kit 4.5; 07 santonixs hub 5; 04 / L03 Aftertwelve 4.5; L01 Genshin sheet 4.5; 03 / L02 Bladebound 4.
+**Owner ratings:** 09 @lastqual combat HUD 5; 10 @skaterstudios.com combat HUD 5; L05 @mystyismee RPG UI kit 4.5; 07 santonixs hub 5; 04 / L03 Aftertwelve 4.5; L01 Genshin sheet 4.5; 03 / L02 Bladebound 4.
 **Adopted 2026-11-14** (owner: "Keep them RPG-only ... As for the principles, adopt them"). These rules apply only when the game's profile names this genre.
 
 ## Motion
@@ -33,7 +33,7 @@ Use the numbers in `premium.md`: its model clips (03, 04, 07) are RPG menus. Thi
 - Grey-on-grey type and thin italic body text (R13).
 - Heavy decoration (skulls plus chains plus stars) on a bar that is on screen all match; save it for titles and banners (I3).
 
-## HUD motion (measured 2026-11-14; ratings pending)
+## HUD motion (measured 2026-11-14; clips 09 and 10 rated 5; phases confirmed by the owner)
 | Item | Start at | Source |
 |---|---|---|
 | Health fill drops to the new value | 100 to 130 ms, eased | 09 (9 hits measured) |
