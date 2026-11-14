@@ -95,7 +95,7 @@ From still references (`evidence/layout/`), owner: "Adopt L1 to L7"; L8 to L10 a
 **Why.** The player has already decided to leave; the UI must get out of the way.
 **Check.** Exit total divided by entry total. In the frames, the last visible thing must be the container.
 **Evidence.** 02 (entry about 300 ms, exit 130 to 200 ms, right column leaves first), 03 (content fades before the frame shrinks away).
-**Never instant (owner 2026-11-14).** No element disappears or appears instantly with no tell: every exit and entry has some transition (a fade, a shrink, a dissolve, a wipe, anything that reads); the owner: "it looks ugly for any element to disappear away instantly with no tell". Under Reduced Motion a short fade still counts.
+**Never instant (owner 2026-11-14).** No element disappears or appears instantly with no tell: every exit and entry has some transition (a fade, a shrink, a dissolve, a wipe, anything that reads); the owner: "it looks ugly for any element to disappear away instantly with no tell". Under Reduced Motion a short fade still counts. Exempt: a hit flash or impact frame in VFX (1 to 4 frames), which is itself the tell (owner 2026-11-14).
 
 ### R4. Swapping panels: one leaves, then the other arrives
 **Rule.** The old panel finishes its exit before the new panel's first beat. Order: old content out, old frame out, an optional empty beat of 30 ms or less, new frame in, new content in. The profile sets the swap budget.

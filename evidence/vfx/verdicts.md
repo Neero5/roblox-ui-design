@@ -68,3 +68,8 @@ Notes for later areas: V12's map is a candidate reference for environment and mo
 
 ## Seventh ruling (2026-11-14)
 - V15 (Arcane Atelier): 5, "the animations are very fluid and the combat system is nice too. I also like the map design. The HUDs match the game well too." The damage tint the owner pointed out ("very very brief ... every time the bottom health bar drops ... a quite transparent red overlay") is measured and in the `rpg` UI profile. V15 is also noted as a candidate animation and map reference.
+
+## Eighth ruling (2026-11-14): from the SyphoDev review
+1. The eight rules: "Adopt all" (X8 to X15).
+2. Flash exemption: "Yes, just like your reading" (the hit flash and impact frames may cut hard; everything else keeps a transition).
+3. Use SyphoDev's tools when installed: "I'd say yes" (helpers only; our rules and cost rules decide).

@@ -66,6 +66,20 @@ The identity rules I1 to I4 and the engineering rule E1 of the UI skill (`../../
 ## E. Leave the scene as found (adopted 2026-11-12)
 Do not change lighting, the baseplate or map, the spawn or the camera unless asked: propose it instead. Remove capture and debug hooks (time-scale attributes, freeze switches, forced aim) before reporting, or list each one that stays and why. Evidence: A/B tests 1 and 2 (both sessions changed the scene and left hooks). Owner: "Adopt them all".
 
+## X8 to X15 (adopted 2026-11-14)
+Source: SyphoDev roblox-ai-skills (`evidence/external/syphodev-roblox-ai-skills-2026-11-14.md`); owner 2026-11-14: "Adopt all".
+
+- **X8 The real thing, not a stand-in.** If the effect IS an object (a dragon, a sword, a fist, a crater, rocks, a book), build that object as a mesh. Never a beam with a blob, a box for a sword, a glow sprite for a fist or a decal for a crater. Sprites (dust, gravel, sparks) are a layer on top, never the object. Check: for every visible element ask "is this what the effect actually is, or a stand-in?" and list each stand-in before calling it done.
+- **X9 White-hot core, colour at the rims.** The centre of a bright shape is near white; the hue sits at its edges.
+- **X10 A dark copy under bright strokes.** A darker, slightly larger copy sits under each bright stroke so it reads on any background (bright sky, snow, a white map).
+- **X11 Long charge, tiny release.** On a charged move the build-up is long and the release is short (about 800 ms of charge to about 70 ms of release; V12's spark, wings, then beam).
+- **X12 Nothing perfectly regular.** No exact circles of identical pieces, evenly spaced spikes or rings, ruler-straight lines or copy-pasted sprites; vary size, angle and spacing. Regularity reads as a preset.
+- **X13 Erode, don't fade.** Shapes break up and thin out over about 6 to 8 frames (eroding alpha, shrinking pieces) rather than a flat transparency fade; no linear fades on the whole effect.
+- **X14 Every layer dies at a different time.** Flash first, then the core, the body, the strokes; residue last. Everything ending together reads as one flat sticker.
+- **X15 Greyscale check.** Desaturate the peak frame: the shape and the hero (X7) must still read.
+
+**Flash exemption (owner 2026-11-14: "Yes, just like your reading").** The hit flash (1 to 4 frames) and impact frames ARE the tell of the hit: they may cut on and off hard. A slash or impact shape may be born at full size on its first frame and then erode (X13). Every other element keeps a transition in and out (core R3 "never instant", X3).
+
 ## Anti-slop checklist for VFX
 
 Tick before calling an effect done. A "no" is a finding (in an audit) or a fix (in a build).

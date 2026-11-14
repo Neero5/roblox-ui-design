@@ -15,6 +15,9 @@ Update later with `/plugin marketplace update roblox-ui-design`.
 ## Call a skill by its full name
 Plugin skills are namespaced: `/roblox-ui-design:roblox-ui-design` and `/roblox-ui-design:roblox-vfx`. Start a request with one of these to load the skill for certain.
 
+## Optional: SyphoDev's VFX tools
+The VFX skill can use the simulator, textures and Blender scripts from https://github.com/SyphoDev-yt/roblox-ai-skills (free licence; credit SyphoDev). Clone it anywhere and put its path in the game's profile ("External VFX tools"). Do NOT run its `install.sh` as is: it installs unnamespaced `roblox-vfx` and `roblox-ui` skills that would compete with ours. If you install it, delete those two folders from `~/.claude/skills` afterwards.
+
 ## Ready-made prompts
 - `prompts/improve-vfx-category.md`: improve every effect of one category (win effects, abilities, pickups...): audit first, then build only what you pick.
 
