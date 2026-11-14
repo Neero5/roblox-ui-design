@@ -86,3 +86,7 @@ Owner: "Keep the 300 ms cap, confirm the rest".
 - Confirmed readings: I4's principles-only line wins over "mimics" (close cases go to the owner); 05's verdict covers its jet loop too; 04 is 4.5 and 07 outranks it where they disagree; animation quality is the second scoring axis after identity.
 - Confirmed numbers (now tagged "owner 2026-11-10" in the skill): I2 fails at 3 or more generic tells; fewer than 3 identity carriers fails; identity statement 2 to 8 words; the hide-the-logo test by a reviewer who has not read the profile; I3's job-per-beat check. Simulator: rare moments 4 beats at most; Back Out on the panel only; 1 overshooting element (2 with the hero); a new build starts with 0 idle; the default hero card Quad Out from 0.96. Premium: rarity colours are information, not accents; buttons at least 32 px; page change 230 to 270 ms; grid compression beyond 3 rows.
 
+
+## Ruling 2026-11-14
+- Clip 08 (@bbstudios4 ribbon menu): 4, "It's great but probably wouldn't fit aesthetically and mechanically for most of my game ideas."
+- L05 (@mystyismee RPG UI kit, 19 stills): about 4.5, "they're great for my upcoming rpg game i wanna make". Five principles proposed in `evidence/layout/L05-mystyismee-rpg-kit.md`, not yet ruled.

@@ -4,10 +4,12 @@ category: ui
 source: "TikTok @bbstudios4, \"Fable 5.2 changes the game dev space\": a stylised pause/main menu with flowing ribbons"
 captured: 2026-11-13
 capture: screen
-rating:        # owner's, pending
+rating: 4
 tags: [motion, layout]
 ---
 # 08 bbstudios4 ribbon menu
+
+**Owner, 2026-11-14:** 4: "It's great but probably wouldn't fit aesthetically and mechanically for most of my game ideas."
 
 ![[ui08-ribbon-menu.jpg]]
 
