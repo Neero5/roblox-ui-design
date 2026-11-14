@@ -15,6 +15,7 @@ type: ui-profile
 **Reduced Motion:** <what stays, what goes>
 **Existing motion tokens:** <path to the game's motion table, e.g. a UIKit.MOTION module, and its values>
 **Overrides of the genre profile:** <rule id: new value, with the owner's reason>
+**References folder:** <path to this game's own references, e.g. an Obsidian vault folder of rated clips and stills; the skills open these BEFORE the plugin's shared library>
 **Style guide / decision log:** <paths in the game's repo>
 
 ## VFX (read by the roblox-vfx skill; delete if the game has no effects)

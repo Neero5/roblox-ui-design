@@ -117,3 +117,11 @@ One pass per clip, zoomed only on the main effect (frames in `media/`). Timings 
 - The black frame before the burst is an impact frame on the hit that sends the dummy flying (not a cut).
 - **Owner's rating: 4.5.** "Great ability effect, note the use of flash and impact frame as it sends the dummy out flying, that's the touch that makes it impactful"
 
+## V15 Arcane Atelier (@arcane_atelier): impact frames, measured
+![[V15-impact-frames.jpg]] ![[V15-overview.jpg]]
+- **Two-tone impact frames on strong hits**, found at 8.17, 9.10, 11.43, 23.63 and 34.37 s (frame-by-frame brightness at 29.97 fps). Each is the same sequence of about 5 frames (about 170 ms): a white frame with black silhouettes, a black frame with the attacker and target as white silhouettes, white again (1 or 2 frames), a high-contrast black-and-white frame of the scene, then straight back to colour. The HUD stays visible through it.
+- **On the target:** a brief white hit ring and spark at the contact point (37.20 to 37.34 s) plus a short red pulse on the target (2 frames, about 70 ms).
+- **No full-screen red damage flash and no low-health alert** were found: the small red pulses are on the target, not on the player's screen.
+- **A leaf wipe** at 60.0 s: green leaves sweep across the whole screen in about 70 ms, hold about 300 ms, then clear (a transition or an ability).
+- Bright, saturated cartoon map; an ornate HUD in one theme (RPG1).
+

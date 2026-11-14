@@ -22,7 +22,7 @@ Goal: effects that look made by a careful studio. Each one is a single named con
 ## Mode A: design an effect (from a description or a reference)
 
 1. **Classify first (X1).** FREQUENT (cast or seen often: basic abilities, hits, pickups) or RARE / CINEMATIC (ultimates, heavy unspammable attacks, late-game attacks, cutscenes, rare reveals). Also note melee or ranged (X1). The profile's lists decide; if the effect is on neither list, ask. Always-on effects (auras, transformations): size and visibility come from the game type in the profile (`references/tiers.md`).
-2. **References (every time).** Pick one to three rated frames from `references/reference-library.md` that match the tier, effect type and element; open them and note what to take. Add the owner's own references if given (a video: run `tools/extract.py` from the plugin root on it first). Take timing, layering, shape and value, never the art (I4).
+2. **References (every time).** First the game's own references folder (the profile's "References folder"), then pick one to three rated frames from `references/reference-library.md` that match the tier, effect type and element; open them and note what to take. Add the owner's own references if given (a video: run `tools/extract.py` from the plugin root on it first). Take timing, layering, shape and value, never the art (I4).
 3. **Write a short brief before building** (10 lines at most):
    - the concept name (a thing, in the game's world: "frost lance", not "blue explosion") and how colour, shape, motion and detail each express it (X5);
    - the one hue family plus the white core; any second hue and what it means;
