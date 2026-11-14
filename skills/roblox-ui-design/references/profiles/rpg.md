@@ -33,5 +33,17 @@ Use the numbers in `premium.md`: its model clips (03, 04, 07) are RPG menus. Thi
 - Grey-on-grey type and thin italic body text (R13).
 - Heavy decoration (skulls plus chains plus stars) on a bar that is on screen all match; save it for titles and banners (I3).
 
+## HUD motion (measured 2026-11-14; ratings pending)
+| Item | Start at | Source |
+|---|---|---|
+| Health fill drops to the new value | 100 to 130 ms, eased | 09 (9 hits measured) |
+| "Recent damage" segment | a lighter segment stays where the lost health was | 09 |
+| Segment hold | 230 to 300 ms | 09 |
+| Segment shrink | 300 to 400 ms, eased | 09 |
+| One hit, start to clean | about 0.7 s | 09 |
+| Hits in quick succession | they stack into one segment that shrinks once after the last hit | 09 (18.07 to 19.60 s) |
+| Damage numbers | float above the target at the hit | 10 |
+| Reduced Motion | the fill and the segment jump; the segment still shows for its hold | guess (E1) |
+
 ## Open
-- Fewer than about 5 screen-recorded HUD clips rated 4 or more: HUD motion (bars draining, damage flash, low-health alert) has no measured numbers yet.
+- Low-health alert and damage flash: not seen in 09 or 10; still unmeasured.
