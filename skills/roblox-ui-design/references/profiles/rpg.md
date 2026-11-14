@@ -44,7 +44,8 @@ Use the numbers in `premium.md`: its model clips (03, 04, 07) are RPG menus. Thi
 | Hits in quick succession | they stack into one segment that shrinks once after the last hit | 09 (18.07 to 19.60 s) |
 | Damage numbers | float above the target at the hit | 10 |
 | Damage tint when the player is hit | a full-screen transparent red overlay (about 10 to 15%), on in ONE frame as the health bar starts to drop, fading out over about 200 to 300 ms; the HUD stays readable | V15 (rated 5; 9 hits measured) |
+| Low-health alert (owner's design 2026-11-14, no clip) | Below a threshold the game sets, a DEEPER red tint than the damage tint comes onto the screen with a transition (a fade or any clear, good-looking entry). It STAYS while health is below the threshold, either beating (pulsing) or still: the game decides. It leaves, again with a transition, ONLY when health rises back above the threshold. It never hides the HUD: at most a transparent overlay over it, best kept off the HUD. | owner 2026-11-14 |
 | Reduced Motion | the fill and the segment jump; the segment still shows for its hold; the damage tint stays (it is a colour change, not motion) but softer | guess (E1) |
 
 ## Open
-- Low-health alert: not seen in 09, 10 or V15; still unmeasured.
+- Low-health alert: specified by the owner (above); no clip yet, so its tint strength and beat rate are to be set per game.

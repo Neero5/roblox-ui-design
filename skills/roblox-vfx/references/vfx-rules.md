@@ -28,7 +28,7 @@ The identity rules I1 to I4 and the engineering rule E1 of the UI skill (`../../
 **Why.** The phases make a hit readable in under a second; the soft in and out is what the owner singles out in two separate clips.
 **Check.** (a) The brief's phase table has all five phases with ms (a phase may be 0 with a reason). (b) In a mid-fade capture, every remaining element is visibly smaller or more transparent than at the peak. (c) Step the last 200 ms frame by frame when in doubt: no element vanishes between two frames while larger than a spark.
 **Evidence.** V04 (charge 300 to 500 ms, flash 1 to 2 frames, burst, crescent, shards linger and shrink, gone in about 1 s), V06 (growth, slashes, flash pillar, rings collapse inward, core), V02 (one white flash frame, sparks fade over about 800 ms), V07 (the sparks at the collapse).
-**Owner.** V04: "the fade in and fade out of the icicles". V07: "i like that spark effect as it disappears."
+**Owner.** V04: "the fade in and fade out of the icicles". V07: "i like that spark effect as it disappears." 2026-11-14: "it looks ugly for any element to disappear away instantly with no tell" (any transition that reads, not only a fade).
 
 ## X4. Detail over quantity
 **Rule.** A few well-made elements (shaped shards, drawn flame, chains with real detail) beat many generic particles. Maximalism loses even when it looks impressive.
