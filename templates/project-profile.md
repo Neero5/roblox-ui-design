@@ -5,7 +5,7 @@ type: ui-profile
 
 **Identity:** <the UI's world in a few words a player could say, e.g. "red ninja clan", "marble sculpture studio"; not adjectives such as "clean" or "modern", not just the genre>
 **Benchmark (optional, one game at most):** <a successful game whose execution to match> / **Principles borrowed:** <anchors, restraint, type, timing, hierarchy, in words. Never its art, logos, icon sets, exact layouts or trade dress>
-**Genre profile:** <simulator | premium | horror | competitive | cosy | ...> (see the skill's `references/profiles/`)
+**Genre profile:** <simulator | premium | rpg | horror | competitive | cosy | ...> (see the skill's `references/profiles/`)
 **Audience and pace:** <who plays, how often panels open, session length>
 **Signature motif (L8):** <one motif from the game's name or premise and where it appears>
 **Primary action and back/close positions (L4, L5):** <e.g. primary bottom right, close top right>

@@ -25,7 +25,7 @@ Contact sheet: ![[00-contact-sheet.jpg]] (all 19 frames in `media/L05-mystyismee
 - **Icon set** (wings, mushroom, fangs, paw, feathers, a default portrait) in silver line art on one tile frame.
 - **In game:** Ashen Overture's inventory (a silver filigree frame round a grid, an italic serif menu "-Profile- -Inventory- -Stats- -Party- -Codes-" fading by distance from the chosen one, the blurred world behind); a character creation screen (two silver-cornered pale panels, the character in the centre, one rose Finalize button bottom right).
 
-## Principles (proposed for the owner's ruling)
+## Principles (adopted 2026-11-14 as RPG1 to RPG5, RPG-only: profiles/rpg.md)
 1. **A theme is a full set.** Bars, hotbar slots, frames and the danger banner share one ornament family and palette; a new theme redraws all of them together (L1, L6, L8).
 2. **Ornament lives on the ends and the corners**, never across the fill: the value stays readable (skull caps, masks, sun discs, corner studs).
 3. **Hierarchy by bar size:** the main bar widest and centred, secondary bars thinner and shorter, stacked against it.

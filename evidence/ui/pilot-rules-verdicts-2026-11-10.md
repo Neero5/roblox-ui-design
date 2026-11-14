@@ -89,4 +89,5 @@ Owner: "Keep the 300 ms cap, confirm the rest".
 
 ## Ruling 2026-11-14
 - Clip 08 (@bbstudios4 ribbon menu): 4, "It's great but probably wouldn't fit aesthetically and mechanically for most of my game ideas."
-- L05 (@mystyismee RPG UI kit, 19 stills): about 4.5, "they're great for my upcoming rpg game i wanna make". Five principles proposed in `evidence/layout/L05-mystyismee-rpg-kit.md`, not yet ruled.
+- L05 (@mystyismee RPG UI kit, 19 stills): about 4.5, "they're great for my upcoming rpg game i wanna make". Five principles (see below) adopted as RPG-only.
+- L05 principles and weak points: "Keep them RPG-only. I also agree with the weak points. As for the principles, adopt them". They are RPG1 to RPG5 in the new genre profile `skills/roblox-ui-design/references/profiles/rpg.md`.
