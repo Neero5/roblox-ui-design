@@ -43,8 +43,8 @@ Starting points, not rulings. Each number carries its source: a clip id means it
 | Linger | about 800 ms | V02 (5.5 to 6.3 s) |
 | Impact frames | about 3 frames, 100 to 200 ms, once or twice per moment | V03 (3.9 to 4.1 s; 6.2 to 6.4 s) |
 | Colour inversion | about 3 frames, once | V03 (6.2 to 6.4 s) |
-| Two-tone impact frame sequence | about 5 frames (about 170 ms): white with black silhouettes, black with white silhouettes, white, a black-and-white scene frame, back to colour; the HUD stays visible | V15 (5 hits measured; rating pending) |
-| Hit accent on the target | a white hit ring and spark at the contact, a red pulse on the target for about 2 frames | V15 (rating pending) |
+| Two-tone impact frame sequence | about 5 frames (about 170 ms): white with black silhouettes, black with white silhouettes, white, a black-and-white scene frame, back to colour; the HUD stays visible | V15 (5 hits measured; rated 5) |
+| Hit accent on the target | a white hit ring and spark at the contact, a red pulse on the target for about 2 frames | V15 (rated 5) |
 | Darkened world (dome, dimmed lighting) | starts 100 to 200 ms before the hit, lifts with the fade | V03 (2.8 s dome, 2.9 s impact); the lift is a guess |
 | Full-screen takeover | set per attack when the game is designed; keep it short; up to about 3 s in a cinematic (V03), and as short as the attack allows in live play | owner 2026-11-12: "depends on attack type ... decided when designing the game ... always good to not take too long" |
 | Whole moment, live play (ultimate) | 2 to 5 s | V03 (2.4 to 7.1 s) |

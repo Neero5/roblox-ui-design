@@ -5,7 +5,7 @@ evidence: [L05, L01, L02, L03, L04, 03, 04, 07]
 ---
 # Profile: RPG (action RPG, dark fantasy, anime RPG)
 
-**Owner ratings:** 09 @lastqual combat HUD 5; 10 @skaterstudios.com combat HUD 5; L05 @mystyismee RPG UI kit 4.5; 07 santonixs hub 5; 04 / L03 Aftertwelve 4.5; L01 Genshin sheet 4.5; 03 / L02 Bladebound 4.
+**Owner ratings:** V15 Arcane Atelier 5 (damage tint, impact frames, HUD matching the game); 09 @lastqual combat HUD 5; 10 @skaterstudios.com combat HUD 5; L05 @mystyismee RPG UI kit 4.5; 07 santonixs hub 5; 04 / L03 Aftertwelve 4.5; L01 Genshin sheet 4.5; 03 / L02 Bladebound 4.
 **Adopted 2026-11-14** (owner: "Keep them RPG-only ... As for the principles, adopt them"). These rules apply only when the game's profile names this genre.
 
 ## Motion
@@ -43,7 +43,8 @@ Use the numbers in `premium.md`: its model clips (03, 04, 07) are RPG menus. Thi
 | One hit, start to clean | about 0.7 s | 09 |
 | Hits in quick succession | they stack into one segment that shrinks once after the last hit | 09 (18.07 to 19.60 s) |
 | Damage numbers | float above the target at the hit | 10 |
-| Reduced Motion | the fill and the segment jump; the segment still shows for its hold | guess (E1) |
+| Damage tint when the player is hit | a full-screen transparent red overlay (about 10 to 15%), on in ONE frame as the health bar starts to drop, fading out over about 200 to 300 ms; the HUD stays readable | V15 (rated 5; 9 hits measured) |
+| Reduced Motion | the fill and the segment jump; the segment still shows for its hold; the damage tint stays (it is a colour change, not motion) but softer | guess (E1) |
 
 ## Open
-- Low-health alert and damage flash: not seen in 09 or 10; still unmeasured.
+- Low-health alert: not seen in 09, 10 or V15; still unmeasured.

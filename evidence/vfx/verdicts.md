@@ -66,3 +66,5 @@ Owner: "Adopt": frequent impacts stay visible for about 0.6 to 1 s after the hit
 
 Notes for later areas: V12's map is a candidate reference for environment and models; V13 is a candidate animation reference.
 
+## Seventh ruling (2026-11-14)
+- V15 (Arcane Atelier): 5, "the animations are very fluid and the combat system is nice too. I also like the map design. The HUDs match the game well too." The damage tint the owner pointed out ("very very brief ... every time the bottom health bar drops ... a quite transparent red overlay") is measured and in the `rpg` UI profile. V15 is also noted as a candidate animation and map reference.

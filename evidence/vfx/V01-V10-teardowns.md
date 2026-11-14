@@ -121,7 +121,9 @@ One pass per clip, zoomed only on the main effect (frames in `media/`). Timings 
 ![[V15-impact-frames.jpg]] ![[V15-overview.jpg]]
 - **Two-tone impact frames on strong hits**, found at 8.17, 9.10, 11.43, 23.63 and 34.37 s (frame-by-frame brightness at 29.97 fps). Each is the same sequence of about 5 frames (about 170 ms): a white frame with black silhouettes, a black frame with the attacker and target as white silhouettes, white again (1 or 2 frames), a high-contrast black-and-white frame of the scene, then straight back to colour. The HUD stays visible through it.
 - **On the target:** a brief white hit ring and spark at the contact point (37.20 to 37.34 s) plus a short red pulse on the target (2 frames, about 70 ms).
-- **No full-screen red damage flash and no low-health alert** were found: the small red pulses are on the target, not on the player's screen.
+- **Owner's rating: 5.** "the animations are very fluid and the combat system is nice too. I also like the map design. The HUDs match the game well too."
+- **Damage tint (found after the owner's note):** "very very brief, it happens every time the bottom health bar drops ... a quite transparent red overlay". Measured at 9 moments (29.4 to 61.5 s): the whole screen's red shifts up by about 13 to 20 (of 255) in ONE frame, on the same frame the health bar starts to drop, then fades back over about 200 to 300 ms. Very transparent: roughly 10 to 15% red. ![[V15-damage-tint.jpg]]
+- No low-health alert was seen.
 - **A leaf wipe** at 60.0 s: green leaves sweep across the whole screen in about 70 ms, hold about 300 ms, then clear (a transition or an ability).
 - Bright, saturated cartoon map; an ornate HUD in one theme (RPG1).
 
