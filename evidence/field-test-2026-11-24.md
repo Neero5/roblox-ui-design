@@ -35,3 +35,20 @@ Owner: "It looks wonderful. Genuinely it's one of the best UI I have so far seen
 What made the difference (review the same evening): layer count; designing on the real game capture; a brief written against the two named failures; every state on the worst backgrounds; no other style skill in play (the owner's Sculpt Me sessions had a cartoon menu kit installed); the look made by the strongest model.
 
 Changes made (owner: "add whatever I could apply ... to the skill"): Mode A steps 6 and 7 (mock the look first on a real capture, then port layer by layer with a port table), Mode D (Figma frame to UI), Step 0 item 4 (other style skills), Craft rules C8 (layers) and C9 (restraint is not absence), anti-slop items 21 and 22, mockup comparison in the light check.
+
+## Field test 4 (same evening): Mode D, Figma frame to Studio
+
+The owner ran the skill (v0.5.0, Mode D) from the CLI with Sonnet. Source: the Figma file "Inkbound HUD" (variables, effect styles, text styles, Slot and TargetBar component sets with state variants, the in-game frame). The two vectors Roblox cannot draw (brush icon, bar brush tip) were exported from Figma as 4x PNGs and bulk-imported in Studio by the owner. The prompt asked for a port table before code, then the build, then a check against the Figma screenshots.
+
+Captures: `ui/media/ft4-port-first-scale.png` (first build), `ui/media/ft4-port-scale-fixed.png` (after the scale fix).
+
+Owner, on the first build: "Very nice. Only issue is the scale but that's a simple fix."
+
+First full port that held the look of the mockup: layered slot (double frame, shadow, inner edge, drain), bar with track, ticks, end caps, recent-damage segment, Garamond type. This is the workflow's first success from look to Studio: mockup, then Figma, then a layer-by-layer port on the cheaper model.
+
+Problems found:
+- Scale: the prompt's UIScale = viewport height / 1080 shrank the HUD to about 40% in Studio's play window (much shorter than 1080 logical px). Fixed with scale = clamp(viewport height / 900, 0.85, 1.3), updated on ViewportSize change, minimum 1.0 on touch-only devices. Owner accepted the result.
+- Radial scrim: Roblox UIGradient is linear only. Stacked linear gradients fall off faster across the width than vertically, so the scrim reads as a soft band with edges instead of a glow. Owner let it pass for now. A true radial needs a radial-gradient image (exported from Figma) behind the text.
+- Losses accepted in the port table: letter spacing (Roblox has no tracking), soft shadows approximated with stacked Frames.
+
+Changes made: the scale rule and the radial-gradient limit added to Mode A step 7 (port).
