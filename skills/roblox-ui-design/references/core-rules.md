@@ -174,6 +174,52 @@ From still references (`evidence/layout/`), owner: "Adopt L1 to L7"; L8 to L10 a
 **Check.** Dump the `Text` of every visible TextLabel, TextButton and TextBox under the screen (a short script) and read the list.
 **Evidence.** 05 ("Insert description here..." on shipped cards).
 
+## Craft (adopted by the owner 2026-11-24, after field test 2)
+
+The I rules decide whether the UI belongs to a world; the R rules make it move well. These rules judge the static look: whether it reads as made by a careful studio or as clip art. Field test 2 (`evidence/field-test-2026-11-24.md`) passed every I tick and still read as "cartoony, unprofessional, AI slop" (owner): each theme word had become a literal sticker drawn with Frames and black strokes. A build that passes I and R and fails C is a fail.
+
+### C1. A material identity needs real assets
+**Rule.** When the identity or theme vocabulary names a material (paper, ink, stone, metal, wood, cloth, glass), its surfaces, fills and edges come from image assets: the game's own textures first (the profile's References folder or asset paths), then textures the owner supplies. Before building, list in the brief which elements need an asset and which asset each uses. If none exist, say so in one line and ask; meanwhile build the restrained version (C3, C4) instead of faking the material.
+**Forbidden.** Faking a material with primitives: scattered Frames or dashes as "grain", stacked Frames as a "brush edge", a square with a diamond as a "seal".
+**Why.** Code alone only has rectangles, strokes, gradients and text; built from those, a material reads as a toy. Studio-quality Roblox UI is assembled from painted assets.
+**Check.** Every element the brief ties to a material uses an ImageLabel or ImageButton with a real texture, or has no material treatment at all.
+
+### C2. No black outlines by default
+**Rule.** Separate elements by value contrast, a soft shadow or a scrim, not by a stroke. A UIStroke is allowed only as part of the identity's ornament family (L6): thin (about 1 px at 1080p), tinted from the palette, never pure black.
+**Forbidden.** A 2 px or thicker black (#000 or near) stroke around panels, bars, slots or buttons. The same stroke weight on every element.
+**Why.** The uniform black outline is Roblox's default look and the strongest single "toy" signal. None of the clips rated 4 or more outlines its panels in black.
+**Check.** List every UIStroke: colour, thickness, and the ornament line it belongs to. Any black stroke of 2 px or more fails.
+
+### C3. A container must earn its place
+**Rule.** HUD elements over play sit on the world (with a soft shadow or a scrim behind text when legibility needs it), not in a box. A container is used only when its content needs a surface (several texts, a list, a form). The frame is never visually heavier than the information it holds.
+**Forbidden.** An opaque box around a single bar, a single number or a single icon. A panel whose empty area is larger than its content. A bar track or frame with more contrast than its fill.
+**Why.** In field test 2, a thin health line sat inside a large cream rectangle with a black border: the frame was the loudest thing on screen.
+**Check.** For each container: what does it hold, and would the content read without it? If yes, remove it. At rest, the fill or value is the highest-contrast part of its element.
+
+### C4. Suggest, don't label
+**Rule.** A motif appears as a quality (an edge, a texture, a colour, a way of moving), not as a literal picture or a word sticker. One motif instance per element, one or two per screen (L8 picks where).
+**Forbidden.** Word stamps such as READY, GO or NEW as decoration, unless the game's world is literally signage. Clip-art stand-ins (simple geometric shapes standing for a real object). A decoration that breaks out of its element's bounds without a reason from the identity.
+**Why.** Real craft lets the player feel the material; slop names it. "Ready" is better said by the slot going from muted to full colour with one brief tell than by a stamp with the word on it.
+**Check.** For each motif: is it a quality or an object? Any object or word sticker needs a one-line reason in the brief, or it goes.
+
+### C5. One type world
+**Rule.** At most two font families, chosen together for the identity; numbers use one of them. Decorative faces only for the hero or a title, never for small numbers or names. Hierarchy still comes from R9.
+**Forbidden.** Roblox's default text stroke (`TextStrokeTransparency` 0, black) on themed UI. A decorative display face next to a chunky outlined UI face. A decorative face below about 18 px.
+**Why.** Field test 2 mixed a blackletter-style serif with Roblox's chunky outlined numbers: two worlds on one slot.
+**Check.** List every TextLabel's font and size: two families at most, no default text stroke, no decorative face on small text.
+
+### C6. Clean edges and smooth fills
+**Rule.** Fills, wipes and masks change smoothly: a UIGradient transparency mask, a clipped or scaled image, or a texture's alpha. Edges are either crisp or deliberately painted (C1).
+**Forbidden.** Stepped, staircase or blocky edges built from stacked Frames, unless the identity is pixel art.
+**Why.** Stepped edges read as low resolution, not as texture.
+**Check.** Zoom the capture on every fill edge and moving boundary.
+
+### C7. The HUD is quieter than the game
+**Rule.** In play, the world and the characters are the hero; the HUD stays lower in contrast, saturation and area than the play's focal objects, except for the moment it must alert. Bars are thin. Darks and lights come from the palette, not pure #000 and #FFF.
+**Forbidden.** An opaque HUD panel that is the brightest or largest shape on screen at rest. Pure black or pure white as large fills.
+**Why.** ui09 (5) keeps the screen clear with thin bars and small labels; field test 2's cream box outshone the fight.
+**Check.** In the resting capture, squint: the first thing seen should be the play, not the HUD. Starting numbers (guess, from ui09 and ui10): a target bar at most about 30% of the screen width, a bar fill about 0.6 to 1% of the screen height.
+
 ## Anti-slop checklist (the reviewer's quick pass)
 
 Each line is a fail if seen in the frames.
@@ -194,6 +240,16 @@ Added with the identity rules (owner 2026-11-10):
 11. A panel, tab or icon set from a different world than the rest. (I1)
 12. Motion or effects with no job for the player; several effect types performing on one resting screen. (I3)
 13. A screen that could be mistaken for the benchmark game's. (I4)
+
+Added with the craft rules (owner 2026-11-24):
+
+14. A material faked with primitives: dashes as grain, Frames as brush edges, shapes as objects. (C1)
+15. A black outline of 2 px or more around panels, bars, slots or buttons. (C2)
+16. An opaque box around a single bar, number or icon; a frame louder than its content. (C3)
+17. A word stamp or clip-art sticker standing in for a motif. (C4)
+18. Two type worlds on one screen, or Roblox's default black text stroke on themed UI. (C5)
+19. Stepped or blocky fill edges outside a pixel-art identity. (C6)
+20. Squinting at the resting capture, the HUD is seen before the play. (C7)
 
 ## E. Engineering requirements (adopted by the owner 2026-11-10)
 

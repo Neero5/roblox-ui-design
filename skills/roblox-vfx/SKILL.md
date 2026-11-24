@@ -57,6 +57,8 @@ Do not edit. Return a short ranked list: the finding, the rule it breaks (id), t
 
 ## Check (light by default; more only on request)
 
+Before any playtest, capture or texture upload, read `references/studio-testing.md`: it lists the traps that silently waste a session (stale code after a push, the camera resetting, screenshots flooding the context, inverted particle stretch, black textures).
+
 Every time: capture the **peak frame** and **one frame mid-fade** from a normal play camera. For a frequent effect, cast it several times in a row (five or more) and watch the last cast. **Stand-in audit (X8)** and **greyscale check (X15)** on the peak frame. **Compare with the reference:** the peak capture beside the chosen reference frame; name the three biggest gaps (core brightness and contrast, shape, layering, detail, size, colour) and fix the largest one or two. Then tick in a few lines: from the DEFAULT play camera at a normal fighting distance, the peak is at least about as tall as the target character; one shape is clearly the brightest (X7); the concept reads from the peak frame alone; one hue family plus white; the character and the target stay visible; no element pops on or cuts off in the mid-fade frame; clean within the tier's time; nothing left in the workspace after it ends; no screen-level effect on a frequent tier; Reduced Motion and the lowest quality level still show that it happened; nothing frozen changed; the scene is as found and no debug hooks are left (or they are listed). Fix what fails. Say what still needs the owner's eyes (captures miss motion feel, and some tools do not draw every layer).
 A fuller review (frame strips with `tools/extract.py`, many casts, several players, a real map background) only when the owner asks, or for a rare moment after asking.
 
@@ -72,4 +74,5 @@ Two to six lines: what changed, the brief (Mode A), what the check found, anythi
 | `references/tiers.md` | Mode A, or any timing, size or count choice. |
 | `references/vfx-rules.md` | A rule's exact wording or check is needed, or an audit. |
 | `references/roblox-vfx-recipes.md` | Writing or changing effect code or emitter properties. |
+| `references/studio-testing.md` | Before any Studio playtest, capture, recording or texture upload. |
 | `../roblox-ui-design/references/core-rules.md` | I1 to I4 or E1 in full. |
