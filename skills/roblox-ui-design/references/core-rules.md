@@ -174,7 +174,7 @@ From still references (`evidence/layout/`), owner: "Adopt L1 to L7"; L8 to L10 a
 **Check.** Dump the `Text` of every visible TextLabel, TextButton and TextBox under the screen (a short script) and read the list.
 **Evidence.** 05 ("Insert description here..." on shipped cards).
 
-## Craft (adopted by the owner 2026-11-24, after field test 2)
+## Craft (adopted by the owner 2026-11-24, after field tests 2 and 2b)
 
 The I rules decide whether the UI belongs to a world; the R rules make it move well. These rules judge the static look: whether it reads as made by a careful studio or as clip art. Field test 2 (`evidence/field-test-2026-11-24.md`) passed every I tick and still read as "cartoony, unprofessional, AI slop" (owner): each theme word had become a literal sticker drawn with Frames and black strokes. A build that passes I and R and fails C is a fail.
 
@@ -220,6 +220,18 @@ The I rules decide whether the UI belongs to a world; the R rules make it move w
 **Why.** ui09 (5) keeps the screen clear with thin bars and small labels; field test 2's cream box outshone the fight.
 **Check.** In the resting capture, squint: the first thing seen should be the play, not the HUD. Starting numbers (guess, from ui09 and ui10): a target bar at most about 30% of the screen width, a bar fill about 0.6 to 1% of the screen height.
 
+### C8. Every surface is built in layers
+**Rule.** A surface reads as made when it has layers: an underlay (a soft shadow or a darker copy), a body (a gradient, never one flat fill), an edge (a thin inner highlight or tinted stroke) and, where it helps, a detail at the ends (end caps, ticks, a brush tip). Roblox mapping: underlay = a 9-slice shadow ImageLabel behind; body = UIGradient; edge = a 1 px UIStroke or an inset Frame at low transparency; detail = small Frames or images. This is the VFX rule X10 (a dark copy under bright strokes) applied to UI.
+**Forbidden.** A surface that is one flat fill with one stroke. Stretching a single texture as the whole element with nothing under or around it.
+**Why.** Field test 2b (owner 2026-11-24): the ink texture build used the right asset as one stretched layer and read as "poor, not rich". The HTML mockup of the same HUD, with six to seven layers per element, read as "one of the best UI I have seen" (owner). Layer count was the largest visible difference.
+**Check.** For each surface, name its underlay, body and edge. A missing one needs a reason.
+
+### C9. Restraint is not absence
+**Rule.** Restraint removes decoration, never structure. A bar keeps a track that shows its maximum, and end caps or a frame of reference. An interactive element keeps a surface, a clear hit area and a visible state (ready, cooling, pressed, refused). Text keeps a scrim or shadow where the background can beat it (R13).
+**Forbidden.** A bar with no track (its percentage cannot be read). A button reduced to a mark with no surface. Removing every container because "no boxes" was asked: C3 removes boxes that do not earn their place, not the ones that do.
+**Why.** Field test 2b: after "no panels or boxes", the ability slot became a floating smear with a "1" under it and the health bar a stroke fading into the sky; the owner: "it lacks professionalism".
+**Check.** Cover the labels: can the player still read the bar's fill against its max and tell whether the button is ready?
+
 ## Anti-slop checklist (the reviewer's quick pass)
 
 Each line is a fail if seen in the frames.
@@ -250,6 +262,8 @@ Added with the craft rules (owner 2026-11-24):
 18. Two type worlds on one screen, or Roblox's default black text stroke on themed UI. (C5)
 19. Stepped or blocky fill edges outside a pixel-art identity. (C6)
 20. Squinting at the resting capture, the HUD is seen before the play. (C7)
+21. A surface made of one flat fill and one stroke, or one stretched texture alone. (C8)
+22. A bar with no visible track or max; a button with no surface or no visible state. (C9)
 
 ## E. Engineering requirements (adopted by the owner 2026-11-10)
 
